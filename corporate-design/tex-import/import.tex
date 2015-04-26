@@ -1,0 +1,46 @@
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\fancyhf{}
+\fancyhead[L]{\Date}
+\fancyhead[C]{\textit{\Title}}
+\fancyhead[R]{\includegraphics[height=1.5em]{./logo.pdf}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.0pt}
+\setlength{\headheight}{2em}
+
+\fancypagestyle{titlestyle}{
+  \fancyhf{}
+  \fancyhead[L]{\begin{sigblock}\end{sigblock}}
+  \fancyfoot[C]{\thepage}
+  \setlength{\headheight}{5em}
+}
+
+\pagestyle{fancy}
+
+\makeatletter
+\AtBeginDocument{\let\Title\@title \let\Subtitle\@subtitle \let\Author\@author \let\Date\@date \let\Subtilte\@subtitle}
+\makeatother
+
+\usepackage{fontspec}
+\setmainfont{URW Palladio L}
+\setsansfont{Titillium}
+
+\newenvironment{sigblock}{%
+\begin{minipage}{0.4\textwidth}%
+\LARGE \centering \sf
+\begin{minipage}[c]{4.3em} \includegraphics[height=1.5em]{./logo.pdf} \end{minipage} \textbf{FSFW} \\
+\vspace{-0.3em}{\tiny Hochschulgruppe für Freies Wissen und Freie Software Dresden} \\
+}{%
+\end{minipage}\newline}
+
+\newenvironment{fsfwtitle}{%
+\thispagestyle{titlestyle}%
+\begin{minipage}{\textwidth}%
+\LARGE \centering \sf
+\Title \\
+{\large \Subtitle} \\
+{\small \Date}\\
+}{%
+\end{minipage}%
+\vspace{4em}}
