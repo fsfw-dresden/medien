@@ -1,18 +1,24 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
+\usepackage[pdfborder = {0 0 0}]{hyperref}
 
 \fancyhf{}
-\fancyhead[L]{\Date}
-\fancyhead[C]{\textit{\Title}}
-\fancyhead[R]{\includegraphics[height=1.5em]{./logo.pdf}}
-\fancyfoot[C]{\thepage}
+\fancyhead[L]{\titlefont FSFW}
+\fancyhead[C]{\textsf{\Title}}
+\fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.0pt}
-\setlength{\headheight}{2em}
 
 \fancypagestyle{titlestyle}{
   \fancyhf{}
   \fancyhead[L]{\begin{sigblock}\end{sigblock}}
-  \fancyfoot[C]{\thepage}
+  \fancyhead[R]{
+    \small
+    \begin{tabular}{rl}
+      \textsf{E-Mail:} & \href{mailto:kontakt@fsfw-dresden.de}{\nolinkurl{kontakt@fsfw-dresden.de}} \\
+      \textsf{Homepage:} & \url{https://fsfw-dresden.de}
+    \end{tabular}
+  }
+  % \fancyfoot[C]{\thepage}
   \setlength{\headheight}{5em}
 }
 
@@ -26,13 +32,16 @@
 \setmainfont{URW Palladio L}
 \setsansfont{Titillium}
 
+% this is fine-tuned by hand, only change, when you know!
+\newfontfamily{\tagfont}[Scale=2]{Titillium Semibold}
+\newfontfamily{\titlefont}{Titillium Semibold}
 \newenvironment{sigblock}{%
 \begin{minipage}{0.4\textwidth}%
 \LARGE \centering \sf
-\begin{minipage}[c]{4.3em} \includegraphics[height=1.5em]{./logo.pdf} \end{minipage} \textbf{FSFW} \\
-\vspace{-0.3em}{\tiny Hochschulgruppe für Freies Wissen und Freie Software Dresden} \\
+\begin{minipage}[b]{4.3em} \includegraphics[height=1.4em]{./logo.pdf} \end{minipage} \tagfont FSFW \sf \\
+\vspace{-0.5em}{\tiny Hochschulgruppe für Freie Software und Freies Wissen Dresden} \\
 }{%
-\end{minipage}\newline}
+\end{minipage}}
 
 \newenvironment{fsfwtitle}{%
 \thispagestyle{titlestyle}%
