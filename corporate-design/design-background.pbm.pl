@@ -21,16 +21,19 @@ my $blocks_x = 100;
 my $blocks_y = 100;
 
 my $padding = $raster_size - $block_size;
+my $padding1 = int($padding / 2);
+my $padding2 = $padding - $padding1;
 my $pixels_x = $blocks_x * $raster_size;
 my $pixels_y = $blocks_y * $raster_size;
 say "P3 $pixels_x $pixels_y 255";
 
 for my $i (1..$blocks_y) {
     my $blocks_line = '';
+    say $white x $padding1 x $pixels_x;
     for my $j (1..$blocks_x) {
         my $color = $colordist[rand @colordist];
-        $blocks_line .= $color x $block_size . $white x $padding;
+        $blocks_line .= $white x $padding1 . $color x $block_size . $white x $padding2;
     }
     say $blocks_line x $block_size;
-    say $white x $padding x $pixels_x;
+    say $white x $padding2 x $pixels_x;
 }
