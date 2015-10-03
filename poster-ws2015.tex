@@ -1,18 +1,17 @@
 \documentclass{scrartcl}
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 
 \usepackage[margin=0cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{csquotes}
 
-\usepackage{tgheros}
-%\renewcommand{\familydefault}{\sffamily}
+\usepackage{fontspec}
+\setsansfont{TeXGyreHeros-Bold}
+\usepackage{fontawesome}
 
 \usepackage{tikz}
-\usetikzlibrary{calc,shadows,decorations.text}
+\usetikzlibrary{calc}
 
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -58,6 +57,39 @@
   \node[fill=white,rounded corners=1cm] at ($(current page.center) + (0,-3.4)$){
     \begin{tikzpicture}
       \useasboundingbox (-9.5,6) rectangle (9.5,-6);
+      \node[anchor=north] at (0,5.5) {
+        \parbox[t][11cm][t]{18cm}{
+          \begin{center}
+            \Huge\color{fsfw-violett}
+            \textbf{\textsf{\LaTeX/LibreOffice Helpdesk}}\\[1ex]
+            \LARGE
+            \textsf{Direkte Hilfe bei Problemen mit \LaTeX{} und LibreOffice.}
+          \end{center}
+
+          \bigskip
+          \bigskip
+
+          \parbox[t][7cm]{10cm}{
+            {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Termine}}}}
+          }
+          \parbox[t][7cm]{8cm}{
+            \parbox[t][3.5cm]{8cm}{
+              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Ort}}}}
+            }\\
+            \parbox[t][3.5cm]{8cm}{
+              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Zeit}}}}
+            }
+          }
+
+          \textbf{\textsf{%
+              \faicon{home}\,
+              \url{https://fsfw-dresden.de/sprechstunde} \quad
+              \faicon{envelope-o}\,
+              \href{mailto:sprechstunde@fsfw-dresden.de}
+              {\texttt{sprechstunde@fsfw-dresden.de}}}
+          }
+        }
+      };
     \end{tikzpicture}
   };
   
@@ -96,4 +128,5 @@
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: t
+%%% TeX-engine: luatex
 %%% End:
