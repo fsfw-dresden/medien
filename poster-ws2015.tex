@@ -6,8 +6,10 @@
 
 \usepackage[margin=0cm]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
 
 \usepackage{tgheros}
+%\renewcommand{\familydefault}{\sffamily}
 
 \usepackage{tikz}
 \usetikzlibrary{calc,shadows,decorations.text}
@@ -40,7 +42,14 @@
     \begin{tikzpicture}
       \useasboundingbox[clip] (-9.5,5) rectangle (9.5,-5);
       \node[overlay] at (0,5.5) {\includegraphics[width=19cm,origin=b]{book.jpg}};
-      \node[scale=3,at={(4,-1)}]{\contour[120]{white}{\textbf{\textsf{\LARGE\textcolor{fsfw-cyan}{\LaTeX-Hilfe}}}}};
+      \node[scale=3,at={(4,-1)}]{%
+        \contour[120]{white}{%
+          \textbf{\textsf{\LARGE\textcolor{fsfw-cyan}{\LaTeX-Hilfe}}}}};
+      \node at (5,-4.3) {%
+        \parbox{8cm}{\raggedleft%
+          \tiny\sf \enquote{I <3 2 read} von katerha, lizenziert unter CC-BY
+     2.0\\
+     \url{https://www.flickr.com/photos/katerha/8435321969/in/photostream/}}};
     \end{tikzpicture}
   };
 
