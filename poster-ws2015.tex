@@ -29,7 +29,7 @@
   
   % background
   \foreach \i in {-1,0,1,2,3,4,5} {
-    \node[anchor=north,overlay] at ($(current page.north) + 5.65*(0,-\i)$) {
+    \node[anchor=north,overlay] at ($(current page.north) + (2.25*\i, 5.65*-\i)$) {
       \includegraphics{banner.png}
     };
   }
