@@ -66,7 +66,7 @@
     \begin{tikzpicture}
       \useasboundingbox (-9.5,6) rectangle (9.5,-6);
       \node[anchor=north] at (0,5.7) {
-        \parbox[t][11cm][t]{18cm}{
+        \parbox[t][12cm][t]{18cm}{
           \begin{center}
             \Huge\color{fsfw-violett}
             \textbf{\textsf{\LaTeX/LibreOffice Helpdesk}}\\[1ex]
@@ -78,17 +78,40 @@
           \bigskip
           \bigskip
 
-          \parbox[t][7cm]{10cm}{
+          \centering
+
+          \parbox[t][6cm]{8cm}{
             {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Termine}}}}
-          }
-          \parbox[t][7cm]{8cm}{
-            \parbox[t][3.5cm]{8cm}{
-              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Ort}}}}
-            }\\
-            \parbox[t][3.5cm]{8cm}{
-              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Zeit}}}}
+
+            \LARGE
+            \null\quad\parbox{0.8\linewidth}{\sf%
+              Mittwoch, 28.10.2015\\
+              Mittwoch, 25.11.2015\\
+              Mittwoch, 27.01.2015\\
+              Mittwoch, 24.02.2015\\
+              Mittwoch, 23.03.2015
             }
           }
+          \parbox[t][6cm]{6cm}{
+            \parbox[t][3.045cm]{\linewidth}{
+              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Ort}}}}
+
+              \vspace*{\baselineskip}
+
+              \LARGE
+              \quad\textsf{SLUB, Raum -2.115}
+            }\\
+            \parbox[t][3.5cm]{\linewidth}{
+              {\Huge\textbf{\textsf{\textcolor{fsfw-green}{Zeit}}}}
+
+              \vspace*{\baselineskip}
+
+              \LARGE
+              \quad\textsf{ab 19:00 Uhr}
+            }
+          }
+
+          \vfill
 
           \begin{center}
             \large
