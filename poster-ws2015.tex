@@ -40,15 +40,23 @@
   {
     \begin{tikzpicture}
       \useasboundingbox[clip] (-9.5,5) rectangle (9.5,-5);
-      \node[overlay] at (0,5.5) {\includegraphics[width=19cm,origin=b]{book.jpg}};
-      \node[scale=3,at={(4,-1)}]{%
-        \contour[120]{white}{%
-          \textbf{\textsf{\LARGE\textcolor{fsfw-cyan}{\LaTeX-Hilfe}}}}};
+      \node[overlay] at (0,5)
+      {\includegraphics[width=30cm,origin=b]{book.jpg}};
+      \node[scale=3,at={(-0.5,4)}]{%
+        \contour{white}{\textbf{\textsf{\color{fsfw-cyan}\large%
+              Schöne Abschlussarbeiten?}}}
+      };
+      \node[scale=3,at={(0,1.5)}]{%
+        \contour{white}{\textbf{\textsf{\color{fsfw-violett}\Huge%
+            Mit \LaTeX!}}}};
+      \node[scale=3,at={(2,-2)}]{%
+        \contour{white}{%
+          \textbf{\textsf{\large\textcolor{fsfw-cyan}{%
+                \dots{} aber es klappt nicht?}}}}};
       \node at (5,-4.3) {%
         \parbox{8cm}{\raggedleft%
-          \tiny\sf \enquote{I <3 2 read} von katerha, lizenziert unter CC-BY
-     2.0\\
-     \url{https://www.flickr.com/photos/katerha/8435321969/in/photostream/}}};
+          \tiny\sf \enquote{book} von walknboston, lizenziert unter CC-BY~2.0\\
+          \url{https://www.flickr.com/photos/walkn/7454316418/}}};
     \end{tikzpicture}
   };
 
