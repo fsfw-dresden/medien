@@ -29,17 +29,18 @@
   
   % background
   \foreach \i in {-1,0,1,2,3,4,5} {
-    \node[anchor=north,overlay] at ($(current page.north) + (2.25*\i, 5.65*-\i)$) {
+    \node[anchor=north,overlay]
+    at ($(current page.north) + (0.07,0) + (2.258*\i, 5.65*-\i)$) {
       \includegraphics{banner.png}
     };
   }
   
   % top
-  \node[anchor=north,fill=white]
-  at ($(current page.north) + (0,-1)$)
+  \node[anchor=north,fill=white,inner sep=0cm]
+  at ($(current page.north) + (0,-1.31)$)
   {
     \begin{tikzpicture}
-      \useasboundingbox[clip] (-9.5,5) rectangle (9.5,-5);
+      \useasboundingbox[clip] (-9.53,5) rectangle (9.53,-5.1);
       \node[overlay] at (0,5)
       {\includegraphics[width=30cm,origin=b]{book.jpg}};
       \node[scale=3,at={(-0.5,4)}]{%
@@ -62,11 +63,12 @@
 
 
   % middle
-  \node[fill=white] at ($(current page.center) + (0,-3.4)$){
+  \node[fill=white,anchor=north,inner sep=0cm]
+  at ($(current page.center) + (0,2.8)$){
     \begin{tikzpicture}
-      \useasboundingbox (-9.5,6) rectangle (9.5,-6);
+      \useasboundingbox (-9.53,6) rectangle (9.53,-5.8);
       \node[anchor=north] at (0,5.7) {
-        \parbox[t][12cm][t]{18cm}{
+        \parbox[t][11.8cm][t]{18cm}{
           \begin{center}
             \Huge\color{fsfw-violett}
             \textbf{\textsf{\LaTeX/LibreOffice Helpdesk}}\\[1ex]
@@ -129,10 +131,10 @@
   };
   
   % footer
-  \node[anchor=south,fill=white]
-  at ($(current page.south) + (0,0.5)$) {\textbf{\textsf{
+  \node[anchor=south,fill=white,inner sep=0cm]
+  at ($(current page.south) + (0,0.7)$) {\textbf{\textsf{
     \begin{tikzpicture}
-      \useasboundingbox (-9.5,2) rectangle (9.5,-2);
+      \useasboundingbox (-9.53,2) rectangle (9.53,-2);
       \node[rectangle,minimum height=3.5cm,minimum width=19cm] at (0,-2){
         \parbox[b][3.5cm]{4.5cm}{
           \null\vfill\centering
