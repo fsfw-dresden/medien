@@ -35,7 +35,7 @@
   }
   
   % top
-  \node[anchor=north,fill=white,rounded corners=1cm]
+  \node[anchor=north,fill=white]
   at ($(current page.north) + (0,-1)$)
   {
     \begin{tikzpicture}
@@ -62,7 +62,7 @@
 
 
   % middle
-  \node[fill=white,rounded corners=1cm] at ($(current page.center) + (0,-3.4)$){
+  \node[fill=white] at ($(current page.center) + (0,-3.4)$){
     \begin{tikzpicture}
       \useasboundingbox (-9.5,6) rectangle (9.5,-6);
       \node[anchor=north] at (0,5.7) {
@@ -129,7 +129,7 @@
   };
   
   % footer
-  \node[anchor=south,fill=white,rounded corners=1cm]
+  \node[anchor=south,fill=white]
   at ($(current page.south) + (0,0.5)$) {\textbf{\textsf{
     \begin{tikzpicture}
       \useasboundingbox (-9.5,2) rectangle (9.5,-2);
