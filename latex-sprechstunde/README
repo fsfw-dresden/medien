@@ -1,0 +1,7 @@
+Diese Poster wurden für Werbezwecke der Hochschulgruppe FSFW Dresden gestaltet.
+
+Zur Generierung wurde `lualatex` aus der \TeX Distribution `texlive` eingesetzt
+
+```bash
+$ lualatex *.tex
+```
