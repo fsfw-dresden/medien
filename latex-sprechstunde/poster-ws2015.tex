@@ -66,7 +66,7 @@
   \node[fill=white,anchor=north,inner sep=0cm]
   at ($(current page.center) + (0,2.25)$){
     \begin{tikzpicture}
-      \useasboundingbox (-9.53,5.75) rectangle (9.53,-5.5);
+      \useasboundingbox (-9.55,5.75) rectangle (9.55,-5.5);
       \node[anchor=north] at (0,5.7) {
         \parbox[t][11.25cm][t]{18cm}{
           \begin{center}
@@ -136,21 +136,27 @@
     \begin{tikzpicture}
       \useasboundingbox (-9.53,2) rectangle (9.53,-2);
       \node[rectangle,minimum height=3.5cm,minimum width=19cm] at (0,-2){
-        \parbox[b][3.5cm]{4.5cm}{
+        \parbox[b][3.5cm]{4.2cm}{
           \null\vfill\centering
           \includegraphics[origin=cc,width=4cm]{sitelogo.pdf}
           \vfill\null
         }
-        \parbox[b][3.5cm]{14cm}{
+        \parbox[b][3.5cm]{9.4cm}{
           \null\vfill
           \centering
-          \LARGE
-          Hochschulgruppe für\\
-          \Huge
-          Freie Software und Freies Wissen\\
           \Large
+          Hochschulgruppe für\\
+          Freie Software und Freies Wissen\\
           \medskip
           \url{https://fsfw-dresden.de}
+          \vfill\null
+        }
+        \parbox[b][3.5cm]{4.2cm}{
+          \null\vfill\centering
+          \vspace*{-1.7\baselineskip}
+          {\normalsize \textmd{In Kooperation mit der}}
+          \vspace*{0.7\baselineskip}\\
+          \includegraphics[origin=cc,width=4cm]{SLUB-Start-Logo-B.jpg}
           \vfill\null
         }
       };
