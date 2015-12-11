@@ -12,8 +12,7 @@
 \usepackage{longtable}
 \usepackage{graphicx}
 \usepackage{makeidx}
-% \usepackage{multicol}
-% \usepackage{multirow}
+\usepackage{booktabs}
 
 \title{Wikischulung}
 \subtitle{Gemeinsame Wissensverwaltung per Wiki}
@@ -24,35 +23,24 @@
 \keywords{Wiki, Schulung, StuRa, Einarbeitung}
 \date{\today}
 
-\makeindex
+\setbeamertemplate{navigation symbols}{}
 
-% \includeonlyframes{Folie123}    % zum schnellen Übersetzen einzelner Folien, funzt jedoch nicht.
+% \includeonlyframes{Folie123}    % zum schnellen Übersetzen einzelner Folien
 
 \begin{document}
 
-% \frame{\titlepage}
-% \frame[plain]{\titlepage}
-% \frame[plain]{\maketitle}
-
 \begin{frame} %%{Wiki-Schulung}{Gemeinsame Wissensverwaltung per Wiki}
-%   \maketitle
   \begin{center}
     \includegraphics[keepaspectratio=true, scale=1]{wikischool-logo}
     \begin{longtable}{|l|l|}
-      \hline
-      %% \multicolumn{2}{|l|}{ Crystal Clear app kworldclock Veranstaltungskurzinfo } \\ 
-      %% \hline
-        
-       \textbf{Thema:}        &  \textbf{Gemeinsame Wissensverwaltung per Wiki}                  \\ 
-      \hline       
-       Ort:                   & KoSe 2015 , Burg Hohenstein                                      \\ 
-      \hline       
-       Datum:                 &  10.01.2015                                                      \\
-      \hline       
-       Zeit:                  &  15:00 Uhr                                                       \\ 
-      \hline       
-       Referent:              &  \href{http://www.stura.htw-dresden.de/members/NormanSchwirz}{Norman Schwirz}  \\ 
-      \hline       
+      \toprule
+      \textbf{Thema:} &  \textbf{Gemeinsame Wissensverwaltung per Wiki} \\
+      \midrule
+       Ort:           & KoSe 2015, Burg Hohenstein \\ 
+       Datum:         & 10.01.2015 \\
+       Zeit:          & 15:00 Uhr \\ 
+       Referent:      &  \href{http://www.stura.htw-dresden.de/members/NormanSchwirz}{Norman Schwirz}  \\ 
+      \bottomrule
     \end{longtable}
   \end{center}
 \end{frame}
@@ -60,14 +48,14 @@
 
 \begin{frame}
   \frametitle{Eure Erwartungen?}
-
-	%  \onslide<+->
-	\begin{figure}[tbph]
-		\centering
-		\includegraphics[width=0.7\linewidth]{500px-Notepad_icon}
-		\caption[Notizblock]{Notizblock}
-		\label{fig:500px-Notepad_icon}
-	\end{figure}
+  
+  % \onslide<+->
+  \begin{figure}[tbph]
+    \centering
+    \includegraphics[width=0.7\linewidth]{500px-Notepad_icon}
+    %\caption[Notizblock]{Notizblock}
+    \label{fig:500px-Notepad_icon}
+  \end{figure}
   
 \end{frame}
 
@@ -615,3 +603,8 @@ Keine Sorge beim Ausprobieren! Sämtliche Änderungen sind nachvollziehbar und k
 \end{frame}
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
