@@ -1,9 +1,9 @@
-\documentclass{beamer}              % Für Präsentation
-% \documentclass[handout]{beamer}   % Für Handouts
-%   \mode<handout>{%
-%   \usepackage{pgfpages}
-%   \pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
-% }
+% \documentclass{beamer}              % Für Präsentation
+\documentclass[handout]{beamer}   % Für Handouts
+  \mode<handout>{%
+  \usepackage{pgfpages}
+  \pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
+}
  
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -74,7 +74,7 @@
 \begin{frame}
   \frametitle{Was sind Wikis}
   \begin{block}{}
-    {\small \textquotedblleft Ein Wiki (hawaiisch für 'schnell'[1]), seltener auch WikiWiki
+    {\tiny \textquotedblleft Ein Wiki (hawaiisch für 'schnell'[1]), seltener auch WikiWiki
     oder WikiWeb genannt, ist ein Hypertext-System für Webseiten, deren
     Inhalte von den Benutzern nicht nur gelesen, sondern auch online direkt
     im Webbrowser geändert werden können (Web-2.0-Anwendung). Diese
@@ -96,29 +96,33 @@
   \frametitle{Einige Wikis im Vergleich}
   \begin{columns}
     \begin{column}{0.5\linewidth}
-      \textbf{\href{http://wiki.stura.htw-dresden.de}{StuRa-Wiki}}
+      \textbf{\href{http://wiki.stura.htw-dresden.de}{StuRa-Wiki (ein MediaWiki)}}
+      \includegraphics{180px-Screenshot_Stura-Wiki-Bsp}
       \begin{itemize}
-        \item Typ: MediaWiki
+%        \item Typ: MediaWiki
         \item Zweck: Das StuRa-Wiki soll KEIN Lexikon sein, sondern unserer Archivierung dienen
       \end{itemize}
 
-      \textbf{\href{http://www.the-empire.de}{the-empire- Wiki}}
+      \textbf{\href{http://food.the-empire.de}{the-empire- Wiki (ein Semantic-MediaWiki)}}
+	  \includegraphics{180px-TheEmpire-Wiki}
       \begin{itemize}
-        \item Typ: Semantic-MediaWiki
+%        \item Typ: Semantic-MediaWiki
         \item Zweck: Organisations- und Kommunitationsplattform einer öffentlichen Initiative \\ 
       \end{itemize}
     \end{column}
     \begin{column}{0.5\linewidth}
 
-      \textbf{\href{http://www.wikipedia.de}{Wikipedia}}
+      \textbf{\href{http://www.wikipedia.de}{Wikipedia (ein MediaWiki)}}
+      \includegraphics{180px-Wikipedia-Startseite}
       \begin{itemize}
-        \item Typ: MediaWiki
+%        \item Typ: MediaWiki
         \item Zweck: Das Wissen der Welt sammeln und jedermann weltweit frei zur Verfügung stellen
       \end{itemize}
 
-      \textbf{\href{http://www2.htw-dresden.de/~s70341/cgi-bin/dokuwiki/doku.php}{Mein MitschriftenWiki}}
+      \textbf{\href{http://www2.htw-dresden.de/~s70341/cgi-bin/dokuwiki/doku.php}{Mein MitschriftenWiki (ein DokuWiki)}}
+	  \includegraphics{180px-MitschriftenWiki-Bsp}
       \begin{itemize}
-        \item Typ: DokuWiki
+%        \item Typ: DokuWiki
         \item Zweck: Gemeinsames Erstellen von Studienmitschriften als \emph{freies} Wissen (s.a.  Open Educational Ressources; es wird die gleich Lizenz wie bei der Wikipedia verwendet)
       \end{itemize}
 
