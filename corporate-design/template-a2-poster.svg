@@ -13,7 +13,7 @@
    viewBox="0 0 1488.189 2104.7244"
    height="594mm"
    width="420mm"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="template-a2-poster.svg"
    inkscape:export-filename="/home/stefan/Projekte/FSFW/medien/corporate-design/template-a2-poster.png"
    inkscape:export-xdpi="60.48"
@@ -27,15 +27,15 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2120"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.8221999"
-     inkscape:cx="837.64933"
-     inkscape:cy="1026.2722"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="0.41109995"
+     inkscape:cx="714.60483"
+     inkscape:cy="1234.1238"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      fit-margin-top="0"
@@ -150,7 +150,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63227,68 +63227,6 @@
        x="-546.11145"
        y="733.95282"
        id="tspan13245">Das Standard-Farbschema umfasst die folgenden Farben:</tspan></text>
-  <rect
-     style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="rect13478"
-     width="495.80042"
-     height="33.540699"
-     x="-531.9212"
-     y="791.47681" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="-516.90594"
-     y="812.7774"
-     id="text13203"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       x="-516.90594"
-       y="812.7774"
-       id="tspan13209">Hellgrau (#F0F0F0) für helle Hintergründe</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#28adb8;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="-517.62592"
-     y="846.48206"
-     id="text13215"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan13217"
-       x="-517.62592"
-       y="846.48206">FSFW-Türkis (#28ADB8) für Überschriften, Weblinks, E-Mail-Adressen</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#6bbb00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="-517.62592"
-     y="878.25171"
-     id="text13219"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan13221"
-       x="-517.62592"
-       y="878.25171">Limone (#6BBB00) für Hervorhebungen</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     x="-516.27594"
-     y="910.98889"
-     id="text13223"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan13225"
-       x="-516.27594"
-       y="910.98889">Violett (#5A3EC7) für Hervorhebungen</tspan></text>
-  <text
-     sodipodi:linespacing="125%"
-     id="text13247"
-     y="780.04022"
-     x="-516.90594"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-     xml:space="preserve"><tspan
-       id="tspan13249"
-       y="780.04022"
-       x="-516.90594"
-       sodipodi:role="line">Schwarz (#000000) für Mengentext</tspan></text>
   <text
      sodipodi:linespacing="125%"
      id="text13251"
@@ -63765,4 +63703,101 @@
        x="1515.3517"
        y="1866.6292"
        id="tspan16403">ändert, sodass das kein praktisches Problem sein sollte.</tspan></text>
+  <rect
+     style="fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline"
+     id="rect13100"
+     width="40.305088"
+     height="21.213203"
+     x="-598.42584"
+     y="892.31903" />
+  <rect
+     y="832.31903"
+     x="-598.42584"
+     height="21.213203"
+     width="40.305088"
+     id="rect13098"
+     style="fill:#28adb8;fill-opacity:1;stroke:none;display:inline" />
+  <rect
+     style="fill:#6bbb00;fill-opacity:1;stroke:none;display:inline"
+     id="rect13096"
+     width="40.305088"
+     height="21.213203"
+     x="-599.38171"
+     y="863.95477" />
+  <rect
+     style="fill:#808080;fill-opacity:1;stroke:none;display:inline"
+     id="rect13478-2"
+     width="539.11072"
+     height="33.540699"
+     x="-606.86401"
+     y="790.58881" />
+  <text
+     xml:space="preserve"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#f0f0f0;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+     x="-548.53845"
+     y="811.8894"
+     id="text13203-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="-548.53845"
+       y="811.8894"
+       id="tspan13209-2">Hellgrau (#F0F0F0) für helle Hintergründe</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#28adb8;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+     x="-549.25842"
+     y="845.59406"
+     id="text13215-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan13217-4"
+       x="-549.25842"
+       y="845.59406">FSFW-Türkis (#28ADB8) für Überschriften, Weblinks, E-Mail-Adressen</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#6bbb00;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+     x="-549.25842"
+     y="877.36371"
+     id="text13219-4"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan13221-4"
+       x="-549.25842"
+       y="877.36371">Limone (#6BBB00) für Hervorhebungen</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+     x="-547.90845"
+     y="910.10089"
+     id="text13223-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan13225-6"
+       x="-547.90845"
+       y="910.10089">Violett (#5A3EC7) für Hervorhebungen</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text13247-9"
+     y="779.15222"
+     x="-548.53845"
+     style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+     xml:space="preserve"><tspan
+       id="tspan13249-6"
+       y="779.15222"
+       x="-548.53845"
+       sodipodi:role="line">Schwarz (#000000) für Mengentext</tspan></text>
+  <rect
+     y="796.32928"
+     x="-598.42584"
+     height="21.213203"
+     width="40.305088"
+     id="rect13102"
+     style="fill:#f0f0f0;fill-opacity:1;stroke:none;display:inline" />
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+     id="rect13104"
+     width="40.305088"
+     height="21.213203"
+     x="-598.42584"
+     y="764.50946" />
 </svg>
