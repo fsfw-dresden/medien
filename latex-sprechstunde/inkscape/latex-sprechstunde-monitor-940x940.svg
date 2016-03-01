@@ -16,7 +16,7 @@
    width="846"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="latex-sprechstunde-monitor-940x940.svg"
-   inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/latex-sprechstunde/inkscape/fsfw_latex_monitor_1600x900.png"
+   inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/latex-sprechstunde/inkscape/fsfw-latexsprechstunde-monitor-940x940.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100">
   <sodipodi:namedview
@@ -33664,7 +33664,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="hilfsebene"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-642.18798)">
     <rect
        style="fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline"
