@@ -1,0 +1,5 @@
+Das Favicon für unser Dokuwiki ist als Datei über den Dokuwiki-Media-Manager erreichbar (Namensraum /wiki):
+
+
+https://wiki.fsfw-dresden.de/doku.php/?image=wiki%3Afavicon.ico&ns=wiki&tab_details=view&do=media&tab_files=files
+
