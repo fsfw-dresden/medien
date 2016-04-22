@@ -1,0 +1,252 @@
+\documentclass[t]{beamer}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tgpagella}
+\usepackage{textpos}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{Titillium}
+
+\usetheme{Dresden}
+\useoutertheme{infolines}
+
+\setbeamerfont*{quote}{family=\sffamily}
+\addtobeamertemplate{quote begin}{}{\begin{tcolorbox}}
+\addtobeamertemplate{quote end}{\end{tcolorbox}}{}
+
+\title{Freie Software Freies Wissen Dresden}
+\subtitle{Datenspuren 2015}
+\author{\texttt{https://fsfw-dresden.de}}
+\date[30.04.2016]{30. April 2016}
+
+\addtobeamertemplate{frametitle}{}{%
+    \begin{textblock*}{130mm}(.82\textwidth,-0.5cm)
+        \includegraphics[width=2.25cm]{img-src/fsfw-logo.pdf}
+\end{textblock*}}
+
+\hyphenation{
+  Regel
+}
+
+\begin{document}
+\begin{frame}
+  \begin{center}%
+\includegraphics[width=4cm]{img-src/fsfw-logo-with-text.pdf}\\%
+\vspace*{-1em}{Freie Software Freies Wissen}\\[1em]
+\structure{\Large Linux Presentation Day 2016}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gliederung}
+  \tableofcontents
+\end{frame}
+
+\section{Einführung und Vorstellung}
+\begin{frame}
+  \frametitle{Wer sind wir?}
+  \begin{itemize}
+  \item FSFW – Hochschulgruppe für Freies Wissen und Freie Software
+    \begin{itemize}
+    \item Hochschulgruppe an der TU Dresden
+    \item Mitgliedern von der HTW und Mitglieder ohne
+      Hochschulaffiliation
+    \item insbesondere kein Verein: Nutzen der Hochschulresourcen,
+      Hochschule als primäre Zielgruppe und Arbeitsfeld.
+    \end{itemize}
+  \item LUG DD – Linux-User-Group Dresden
+  \item Datenkollektiv
+  \item StuRa der HTW (Räume und Budget)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Warum machen wir das?}
+  \begin{itemize}
+  \item gesteigertes Interesse an Linux-Systemen (Windows 10, Steam
+    für Linux, Edward Snowden)
+  \item wir verwenden es selbst gerne
+  \end{itemize}
+\end{frame}
+
+\section{Über Linux und Freie Software}
+\begin{frame}
+  \frametitle{Was ist Linux?}
+  \begin{quote}
+    Als Linux oder GNU/Linux […] bezeichnet man in
+    der Regel freie, unix-ähnliche Mehrbenutzer-Betriebssysteme, die
+    auf dem Linux-Kernel und wesentlich auf GNU-Software
+    basieren.\footnote{\url{https://de.wikipedia.org/wiki/Linux}}
+  \end{quote}
+  \begin{center}
+    \Large … das bedarf Erläuterung.
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Was ist ein Betriebssystem?}
+  \begin{block}{Kernel}
+    macht die Drecksarbeit – stellt die Umgebung für Programme bereit
+    \begin{itemize}
+    \item Scheduling, Speicherverwaltung, Hardwaretreiber, Interrupts,
+      DMA, Netzwerk, …
+    \end{itemize}
+  \end{block}
+  \begin{block}{Userland}
+    \begin{itemize}
+    \item Graphische Oberfläche
+    \item Standardwerkzeuge
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Was bedeutet „frei“?}
+  \begin{block}{Grundfreiheiten}
+    \begin{enumerate}
+    \item Zu jedem Zwecke ausführen
+    \item Untersuchen und Verändern
+    \item Weitergeben
+    \item Weitergeben von Änderungen
+    \end{enumerate}
+  \end{block}
+  % Entwicklungsmodell – OpenSource
+\end{frame}
+
+\begin{frame}
+  \frametitle{Was ist Linux? – for real}
+  \begin{itemize}
+  \item bezeichnet eigentlich den Linux-Kernel
+  \item im allgemeinen Sprachgebrauch: ganzes Betriebssystem
+  \item Freie Software – größtenteils
+  \end{itemize}
+\end{frame}
+
+\section{Gründe für und gegen Linux}
+\begin{frame}
+  \frametitle{Warum Freie Software?}
+  \begin{itemize}
+  \item Vier Freiheiten
+    % wichtige anmerkung: => Verifizierbarkeit
+  \item keine Lizenzgebühren
+  \item Unterstützung älterer Hardware
+  \item ethische Argumente
+  \item Sicherheit${}^\text{[citation needed]}$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Kontrolle über Updates}
+  \begin{itemize}
+  \item Updates werden installiert wenn der User das möchte
+  \item kein verlängertes Herunterfahren durch Updates
+  \item Sicherheitsupdates können gesondert installiert werden
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Konfigurierbarkeit und Anpassbarkeit}
+  \begin{itemize}
+  \item Große Auswahl aus heterogenem Ökosystem
+  \item für jeden etwas dabei (alte, schwächere Hardware; Minimale
+    Nerd-Systeme; ...)
+  \item die meiste Software ist sehr gut konfigurierbar
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Privacy}
+  \begin{itemize}
+  \item telefoniert nicht nach Hause
+  \item Festplattenverschlüsselung ist einfach (ein Klick bei der
+    Installation und Passwort)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Sicherheit}
+  \begin{itemize}
+  \item Vorteil durch kleineren Marktanteil im Desktopbereicht
+  \item Vorteil druch großen Marktanteil auf Serversystemen
+  \item Community reagiert schnell auf Sicherheitslücken
+    % mündlich: ob man auch Updates bekommt ...
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Paketverwaltung}
+  \begin{itemize}
+  \item von der Distribution bereitgestellt
+  \item für viele \emph{das} Killerfeature
+  \item AppStore auf Steroiden – established 1998
+  \item Programme komfortabel und sicher installieren
+    % mündlich: Abhängigkeiten, deduplizierung, katzenbilder
+    % Programme für $alles direkt verfügbar ohne windige
+    % Download-Websites
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Probleme mit Linux}
+  \begin{itemize}
+  \item exotische Hardware (NFC, seltener: WLAN, sehr neue Graphikkarten)
+  \item Graphikleistung oft schlechter ($\rightarrow$ Spiele)
+  \item Verfügbarkeit von spezieller Software (z.\,B. CAD)
+  \end{itemize}
+\end{frame}
+
+\section{Begriffe}
+\begin{frame}
+  \frametitle{Einige Begriffe}
+  \begin{block}{Distribution}
+    Sammlung von Software und Standardkonfiguration, Populäre
+    Distributionen: Fedora, Debian, Mint, Ubuntu
+  \end{block}
+  \begin{block}{Desktop-Umgebung}
+    Graphische Oberfläche und Standardanwendungen, Populäre
+    Desktop-Umgebungen: Unity (Ubuntu), Gnome, Mate, Cinnamon, KDE
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linux neben Windows}
+  \begin{itemize}
+  \item im Prinzip kein Problem
+  \item einziges praktisches Problem: Windows zerlegt den Bootloader
+    bei größeren Updates (das muss man dann manuell beheben)
+  \item viele Windows-Programme laufen auch unter wine (ältere Spiele,
+    Bürosoftware, ...)
+  \item falls Leistung oder direkter Hardwarezugriff nicht wichtig
+    sind: Windows in einer VM
+  \end{itemize}
+\end{frame}
+
+\section{Veranstaltungshinweise}
+\begin{frame}
+  \frametitle{Linux Helpdesk}
+  \begin{itemize}
+  \item LUG
+  \item fsfw
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Interesse?}
+  \begin{description}
+  \item[Web] \url{https://fsfw-dresden.de}\\
+    \begin{center}
+      \hspace*{-6em}
+      \includegraphics[width=4cm]{img-src/website-qr.pdf}
+    \end{center}
+  \item[Mailingliste] \url{http://lists.fsfw-dresden.de/mailman/listinfo/discuss} (auch oben verlinkt)
+  \item[Treffen] SLUB (Hauptgebäude), Raum -2.115, Donnerstags in ungeraden Wochen, 18:30 Uhr
+  \end{description}
+\end{frame}
+
+\end{document}
