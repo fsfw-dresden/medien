@@ -1,5 +1,5 @@
 /auto/poster-ws2015.el
-/poster-ws2015.aux
-/poster-ws2015.log
-/poster-ws2015.out
-/poster-ws2015.synctex.gz
+/*.aux
+/*.log
+/*.out
+/*.synctex.gz
