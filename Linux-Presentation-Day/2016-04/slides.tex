@@ -34,6 +34,13 @@
   Regel
 }
 
+\AtBeginSection[] % Do nothing for \section*
+{
+  \begin{frame}<beamer>
+    \frametitle{Gliederung}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 \begin{document}
 \begin{frame}
   \begin{center}%
@@ -61,6 +68,7 @@
       Hochschule als primäre Zielgruppe und Arbeitsfeld.
     \end{itemize}
   \item LUG DD – Linux-User-Group Dresden
+  \item c3d2 – CCC Dresden
   \item Datenkollektiv
   \item StuRa der HTW (Räume und Budget)
   \end{itemize}
@@ -72,6 +80,7 @@
   \item gesteigertes Interesse an Linux-Systemen (Windows 10, Steam
     für Linux, Edward Snowden)
   \item wir verwenden es selbst gerne
+  \item weil heute der internationale Linux-Presentation-Day ist
   \end{itemize}
 \end{frame}
 
@@ -102,6 +111,7 @@
     \begin{itemize}
     \item Graphische Oberfläche
     \item Standardwerkzeuge
+    \item Standardbibliotheken
     \end{itemize}
   \end{block}
 \end{frame}
@@ -125,6 +135,8 @@
   \item bezeichnet eigentlich den Linux-Kernel
   \item im allgemeinen Sprachgebrauch: ganzes Betriebssystem
   \item Freie Software – größtenteils
+  \item große Vielfalt an Ausprägungen (Server, Embedded, diverse
+    Desktop-Systeme)
   \end{itemize}
 \end{frame}
 
@@ -144,7 +156,7 @@
 \begin{frame}
   \frametitle{Kontrolle über Updates}
   \begin{itemize}
-  \item Updates werden installiert wenn der User das möchte
+  \item Updates werden installiert wenn und wann der Nutzer das möchte
   \item kein verlängertes Herunterfahren durch Updates
   \item Sicherheitsupdates können gesondert installiert werden
   \end{itemize}
@@ -153,8 +165,8 @@
 \begin{frame}
   \frametitle{Konfigurierbarkeit und Anpassbarkeit}
   \begin{itemize}
-  \item Große Auswahl aus heterogenem Ökosystem
-  \item für jeden etwas dabei (alte, schwächere Hardware; Minimale
+  \item große Auswahl aus heterogenem Ökosystem
+  \item für jeden etwas dabei (alte, schwächere Hardware; minimale
     Nerd-Systeme; ...)
   \item die meiste Software ist sehr gut konfigurierbar
   \end{itemize}
@@ -193,11 +205,42 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Nutzerfreundlichkeit}
+  \begin{itemize}
+  \item schlechter Ruf nicht mehr gerechtfertigt
+  \item mit modernen Desktopumgebungen mindestens so Komfortabel wie
+    Windows
+  \item keine Angst vor der Konsole
+    \begin{itemize}
+    \item Kenntnis nicht zwingend notwendig – alles geht auch ohne
+    \item macht das Leben für erfahrene Benutzer aber viel einfacher
+    \item it's a feature, not a bug
+    \end{itemize}
+  % don't like it yet
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
   \frametitle{Probleme mit Linux}
   \begin{itemize}
   \item exotische Hardware (NFC, seltener: WLAN, sehr neue Graphikkarten)
   \item Graphikleistung oft schlechter ($\rightarrow$ Spiele)
   \item Verfügbarkeit von spezieller Software (z.\,B. CAD)
+  \item Accessibility
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linux neben Windows}
+  \begin{itemize}
+  \item im Prinzip kein Problem
+  \item man bekommt dann ein Bootmenü zum Auswählen
+  \item einziges praktisches Problem: Windows zerlegt den Bootloader
+    bei größeren Updates (das muss man dann manuell beheben)
+  \item viele Windows-Programme laufen auch unter wine (ältere Spiele,
+    Bürosoftware, ...)
+  \item falls Leistung oder direkter Hardwarezugriff nicht wichtig
+    sind: Windows in einer VM
   \end{itemize}
 \end{frame}
 
@@ -206,24 +249,26 @@
   \frametitle{Einige Begriffe}
   \begin{block}{Distribution}
     Sammlung von Software und Standardkonfiguration, Populäre
-    Distributionen: Fedora, Debian, Mint, Ubuntu
+    Distributionen: Fedora, Debian, Mint, Ubuntu, Arch Linux
   \end{block}
   \begin{block}{Desktop-Umgebung}
     Graphische Oberfläche und Standardanwendungen, Populäre
     Desktop-Umgebungen: Unity (Ubuntu), Gnome, Mate, Cinnamon, KDE
   \end{block}
+  \begin{block}{Datei-Manager}
+    Entspricht dem WinDOS-Explorer – Jede Desktop-Umgebung hat einen
+    eigenen.
+  \end{block}
 \end{frame}
 
+\section{Programm}
 \begin{frame}
-  \frametitle{Linux neben Windows}
+  \frametitle{Was gibt es jetzt noch?}
   \begin{itemize}
-  \item im Prinzip kein Problem
-  \item einziges praktisches Problem: Windows zerlegt den Bootloader
-    bei größeren Updates (das muss man dann manuell beheben)
-  \item viele Windows-Programme laufen auch unter wine (ältere Spiele,
-    Bürosoftware, ...)
-  \item falls Leistung oder direkter Hardwarezugriff nicht wichtig
-    sind: Windows in einer VM
+  \item Linux-Install-Party
+  \item Computer mit Linux zum Ausprobieren
+  \item Vorstellung der beteiligten Initiativen
+  \item Mate, Wostok und Schnittchen
   \end{itemize}
 \end{frame}
 
@@ -237,7 +282,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Interesse?}
+  \frametitle{Interesse mitzumachen?}
   \begin{description}
   \item[Web] \url{https://fsfw-dresden.de}\\
     \begin{center}
