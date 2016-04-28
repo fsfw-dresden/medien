@@ -10,8 +10,8 @@
 \usepackage{tcolorbox}
 
 \usepackage{fontspec}
-\setmainfont{TeX Gyre Pagella}
-\setsansfont{Titillium}
+\setmainfont{Titillium}
+% \setsansfont{}
 
 \usetheme{Dresden}
 \useoutertheme{infolines}
@@ -20,11 +20,12 @@
 \addtobeamertemplate{quote begin}{}{\begin{tcolorbox}}
 \addtobeamertemplate{quote end}{\end{tcolorbox}}{}
 
-\title{Freie Software Freies Wissen Dresden}
-\subtitle{Datenspuren 2015}
-\author{\texttt{https://fsfw-dresden.de}}
+\title{Linux Presentation Day April 2016}
+\author{\texttt{https://fsfw-dresden.de/lpd}}
 \date[30.04.2016]{30. April 2016}
 
+% TODO: fsfw Farbschema
+% LPD Logo in die Ecke
 \addtobeamertemplate{frametitle}{}{%
     \begin{textblock*}{130mm}(.82\textwidth,-0.5cm)
         \includegraphics[width=2.25cm]{img-src/fsfw-logo.pdf}
@@ -44,6 +45,7 @@
 \begin{document}
 \begin{frame}
   \begin{center}%
+% LPD Logo
 \includegraphics[width=4cm]{img-src/fsfw-logo-with-text.pdf}\\%
 \vspace*{-1em}{Freie Software Freies Wissen}\\[1em]
 \structure{\Large Linux Presentation Day 2016}
@@ -62,25 +64,26 @@
   \item FSFW – Hochschulgruppe für Freies Wissen und Freie Software
     \begin{itemize}
     \item Hochschulgruppe an der TU Dresden
-    \item Mitgliedern von der HTW und Mitglieder ohne
+    \item Mitglieder von der HTW und Mitglieder ohne
       Hochschulaffiliation
-    \item insbesondere kein Verein: Nutzen der Hochschulresourcen,
-      Hochschule als primäre Zielgruppe und Arbeitsfeld.
     \end{itemize}
   \item LUG DD – Linux-User-Group Dresden
-  \item c3d2 – CCC Dresden
+  \item c3d2 – Chaos Computer Club Dresden
   \item Datenkollektiv
   \item StuRa der HTW (Räume und Budget)
+  \item IT4R – IT for refugees
   \end{itemize}
+  % Pro Initiative eine Slide (und eine Übersichtsslide)
+  % URLs
 \end{frame}
 
 \begin{frame}
   \frametitle{Warum machen wir das?}
   \begin{itemize}
-  \item gesteigertes Interesse an Linux-Systemen (Windows 10, Steam
+  \item weil heute der internationale Linux-Presentation-Day ist
+  \item aktuelles Interesse an Linux-Systemen (Windows 10, Steam
     für Linux, Edward Snowden)
   \item wir verwenden es selbst gerne
-  \item weil heute der internationale Linux-Presentation-Day ist
   \end{itemize}
 \end{frame}
 
@@ -117,8 +120,8 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Was bedeutet „frei“?}
-  \begin{block}{Grundfreiheiten}
+  \frametitle{Was bedeutet „Freie Software“?}
+  \begin{block}{Grundfreiheiten für Software}
     \begin{enumerate}
     \item Zu jedem Zwecke ausführen
     \item Untersuchen und Verändern
@@ -140,6 +143,26 @@
   \end{itemize}
 \end{frame}
 
+% Geschichte von Linux Slide
+
+\section{Begriffe}
+\begin{frame}
+  \frametitle{Einige Begriffe}
+  \begin{block}{Distribution}
+    Sammlung von Software und Standardkonfiguration, Populäre
+    Distributionen: Fedora, Debian, Mint, Ubuntu, Arch Linux
+    % Symbolbild: Stammbaum der Distros
+  \end{block}
+  \begin{block}{Desktop-Umgebung}
+    Graphische Oberfläche und Standardanwendungen, Populäre
+    Desktop-Umgebungen: Unity (Ubuntu), Gnome, Mate, Cinnamon, KDE
+  \end{block}
+  \begin{block}{Datei-Manager}
+    Entspricht dem Windows-Explorer oder dem Mac OS Finder – Jede
+    Desktop-Umgebung hat einen eigenen.
+  \end{block}
+\end{frame}
+
 \section{Gründe für und gegen Linux}
 \begin{frame}
   \frametitle{Warum Freie Software?}
@@ -149,6 +172,8 @@
   \item keine Lizenzgebühren
   \item Unterstützung älterer Hardware
   \item ethische Argumente
+  \item Zugänglichkeit für Bildung
+  \item Nachhaltigkeit
   \item Sicherheit${}^\text{[citation needed]}$
   \end{itemize}
 \end{frame}
@@ -156,7 +181,7 @@
 \begin{frame}
   \frametitle{Kontrolle über Updates}
   \begin{itemize}
-  \item Updates werden installiert wenn und wann der Nutzer das möchte
+  \item Updates werden installiert, wenn und wann der Nutzer das möchte
   \item kein verlängertes Herunterfahren durch Updates
   \item Sicherheitsupdates können gesondert installiert werden
   \end{itemize}
@@ -176,17 +201,18 @@
   \frametitle{Privacy}
   \begin{itemize}
   \item telefoniert nicht nach Hause
-  \item Festplattenverschlüsselung ist einfach (ein Klick bei der
-    Installation und Passwort)
+  \item Festplattenverschlüsselung ist typischerweise einfach (ein
+    Klick bei der Installation und ein Passwort angeben)
   \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sicherheit}
   \begin{itemize}
-  \item Vorteil durch kleineren Marktanteil im Desktopbereicht
-  \item Vorteil druch großen Marktanteil auf Serversystemen
-  \item Community reagiert schnell auf Sicherheitslücken
+  \item Vorteil durch kleineren Marktanteil im Desktopbereich
+  \item Vorteil durch großen Marktanteil auf Serversystemen
+  \item Community reagiert typischerweise schnell auf
+    Sicherheitslücken
     % mündlich: ob man auch Updates bekommt ...
   \end{itemize}
 \end{frame}
@@ -194,11 +220,11 @@
 \begin{frame}
   \frametitle{Paketverwaltung}
   \begin{itemize}
+  \item Programme komfortabel und sicher installieren
   \item von der Distribution bereitgestellt
   \item für viele \emph{das} Killerfeature
-  \item AppStore auf Steroiden – established 1998
-  \item Programme komfortabel und sicher installieren
-    % mündlich: Abhängigkeiten, deduplizierung, katzenbilder
+  \item App-Store auf Steroiden – seit 1998
+    % mündlich: Abhängigkeiten, Deduplizierung, Katzenbilder
     % Programme für $alles direkt verfügbar ohne windige
     % Download-Websites
   \end{itemize}
@@ -208,15 +234,16 @@
   \frametitle{Nutzerfreundlichkeit}
   \begin{itemize}
   \item schlechter Ruf nicht mehr gerechtfertigt
-  \item mit modernen Desktopumgebungen mindestens so Komfortabel wie
+  \item mit modernen Desktopumgebungen mindestens so komfortabel wie
     Windows
   \item keine Angst vor der Konsole
     \begin{itemize}
-    \item Kenntnis nicht zwingend notwendig – alles geht auch ohne
+    \item Kenntnis nicht zwingend notwendig
     \item macht das Leben für erfahrene Benutzer aber viel einfacher
-    \item it's a feature, not a bug
     \end{itemize}
-  % don't like it yet
+  % mündlich: it's a feature, not a bug
+  % Symbolbolbild: Terminal
+  % Eventuell eigene Slide für die Konsole
   \end{itemize}
 \end{frame}
 
@@ -227,6 +254,7 @@
   \item Graphikleistung oft schlechter ($\rightarrow$ Spiele)
   \item Verfügbarkeit von spezieller Software (z.\,B. CAD)
   \item Accessibility
+    % mündlich: NFC erläutern
   \end{itemize}
 \end{frame}
 
@@ -242,23 +270,10 @@
   \item falls Leistung oder direkter Hardwarezugriff nicht wichtig
     sind: Windows in einer VM
   \end{itemize}
-\end{frame}
-
-\section{Begriffe}
-\begin{frame}
-  \frametitle{Einige Begriffe}
-  \begin{block}{Distribution}
-    Sammlung von Software und Standardkonfiguration, Populäre
-    Distributionen: Fedora, Debian, Mint, Ubuntu, Arch Linux
-  \end{block}
-  \begin{block}{Desktop-Umgebung}
-    Graphische Oberfläche und Standardanwendungen, Populäre
-    Desktop-Umgebungen: Unity (Ubuntu), Gnome, Mate, Cinnamon, KDE
-  \end{block}
-  \begin{block}{Datei-Manager}
-    Entspricht dem WinDOS-Explorer – Jede Desktop-Umgebung hat einen
-    eigenen.
-  \end{block}
+  % TODO: Screenshot von grubd
+  % zwei Folien: Dual Boot/Alternativen zu Dual Boot
+  % zweite Slide: VM und wine erklären
+  % Programmnamen Mark-Upen
 \end{frame}
 
 \section{Programm}
@@ -268,7 +283,7 @@
   \item Linux-Install-Party
   \item Computer mit Linux zum Ausprobieren
   \item Vorstellung der beteiligten Initiativen
-  \item Mate, Wostok und Schnittchen
+  \item Mate, Wostok und Kekse
   \end{itemize}
 \end{frame}
 
