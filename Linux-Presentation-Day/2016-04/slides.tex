@@ -11,6 +11,7 @@
 \usepackage{tcolorbox}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\usepackage{pdfpcnotes}
 
 \usepackage{fontspec}
 \setmainfont{Titillium Web}
@@ -53,7 +54,7 @@
 }
 
 
-\setbeameroption{show notes on second screen=right}
+%% \setbeameroption{show notes on second screen=right}
 \setbeamertemplate{navigation symbols}{}%remove navigation symbols
 \setbeamertemplate{note page}{%
   \insertnote%
@@ -63,18 +64,18 @@
     \let\enumerate\itemize%
     \let\endenumerate\enditemize%
     \hspace{-0.5cm}\begin{minipage}{\textwidth}
-        \begin{columns}
-            \column{0.4\textwidth}
-            \scriptsize
-            Current slide: \\
-            \insertslideintonotes{0.4}
-            \column{0.59\textwidth}
+        %% \begin{columns}
+        %%     \column{0.4\textwidth}
+        %%     \scriptsize
+        %%     Current slide: \\
+        %%     \insertslideintonotes{0.4}
+        %%     \column{0.59\textwidth}
 }
 \AtEndNote{
-        \end{columns}
+        %% \end{columns}
     \end{minipage}
 }
-\newcommand{\noteitem}[1]{\note[item]{#1}}
+\newcommand{\noteitem}[1]{\pnote{#1}}
 
 \begin{document}
 \begin{frame}
