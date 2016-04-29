@@ -1,0 +1,59 @@
+\documentclass[t]{beamer}
+\usepackage{pgfpages}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tgpagella}
+\usepackage{textpos}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{fontspec}
+\setmainfont{Titillium Web}
+\setsansfont{Titillium Web}
+
+\usetheme{Dresden}
+\useoutertheme{infolines}
+\usecolortheme{fsfw}
+
+\title{Linux Presentation Day April 2016}
+\author{\texttt{https://fsfw-dresden.de/lpd}}
+\date[30.04.2016]{30. April 2016}
+
+\newcommand{\cmd}[1]{\texttt{#1}}
+
+\addtobeamertemplate{frametitle}{}{%
+    \begin{textblock*}{130mm}(.82\textwidth,-0.5cm)
+      \includegraphics[width=1.8cm]{pdf-gen/lpd-logo-small.pdf}
+\end{textblock*}
+\vspace*{1em}}
+
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+
+\begin{document}
+\begin{frame}
+  \frametitle{Programm}
+  \vspace*{-1em}
+  \begin{description}
+  \item[15:00] Beginn
+  \item[15:15] Begrüßung und Vorstellung
+  \item[15:30] Einführungsvortrag
+  \item[16:15] Pause (Getränke und Gebäck)
+  \item[16:30] Praxisbeispiel: Autarke WLAN-Station (IT 4 Refugees)
+  \item[17:00] Workshop: Linux-Install-Party
+  \item[20:00] Ende
+  \end{description}
+  \begin{block}{Außerdem}
+    \begin{itemize}
+    \item Linux ausprobieren (Demonstrationscomputer)
+    \item Mate, Wostok und Gebäck
+    \item Infomaterial/Stände der beteiligten Initiativen
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\end{document}

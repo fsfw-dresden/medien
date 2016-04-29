@@ -16,7 +16,7 @@ GEN_SVG_PDF = $(patsubst svg-gen/%.svg,pdf-gen/%.pdf,$(GEN_SVG))
 
 SOURCES = $(STATIC_SVG_PDF) $(GEN_SVG_PDF)
 
-do-build: build/$(TARGET).pdf
+do-build: build/$(TARGET).pdf build/programm-beamer.pdf
 
 build-deps: $(SOURCES)
 	@echo $(SOURCES)
@@ -24,6 +24,10 @@ build-deps: $(SOURCES)
 build/$(TARGET).pdf: $(TARGET).tex beamercolorthemefsfw.sty $(SOURCES)
 	mkdir -p build
 	$(PDFLATEXFULL)
+
+build/programm-beamer.pdf: programm-beamer.tex beamercolorthemefsfw.sty $(SOURCES)
+	mkdir -p build
+	$(PDFLATEX) -jobname build/programm-beamer.pdf programm-beamer.tex
 
 $(STATIC_SVG_PDF): pdf-gen/%.pdf: img-src/%.svg
 	@mkdir -p pdf-gen
