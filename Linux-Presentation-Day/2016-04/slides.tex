@@ -11,7 +11,7 @@
 \usepackage{tcolorbox}
 
 \usepackage{fontspec}
-\setmainfont{Titillium}
+\setmainfont{Titillium Web}
 % \setsansfont{}
 
 \usetheme{Dresden}
@@ -21,9 +21,14 @@
 \addtobeamertemplate{quote begin}{}{\begin{tcolorbox}}
 \addtobeamertemplate{quote end}{\end{tcolorbox}}{}
 
+\addtobeamertemplate{block example begin}{\begin{tcolorbox}}{}
+\addtobeamertemplate{block example end}{}{\end{tcolorbox}}
+
 \title{Linux Presentation Day April 2016}
 \author{\texttt{https://fsfw-dresden.de/lpd}}
 \date[30.04.2016]{30. April 2016}
+
+\newcommand{\cmd}[1]{\texttt{#1}}
 
 % TODO: fsfw Farbschema
 % LPD Logo in die Ecke
@@ -161,6 +166,8 @@
 
 \section{Über Linux und Freie Software}
 \begin{frame}
+  \noteitem{Quote vorlesen}
+  \noteitem{folgende Struktur erklären (Grundlegende Begriffe OS, FLOSS, dann zurück zu Linux)}
   \frametitle{Was ist Linux?}
   \begin{quote}
     Als Linux oder GNU/Linux […] bezeichnet man in
@@ -174,6 +181,8 @@
 \end{frame}
 
 \begin{frame}
+  \noteitem{Bloß nicht an Scheduling, ... aufhängen!}
+  \noteitem{Userland genauer ausführen}
   \frametitle{Was ist ein Betriebssystem?}
   \begin{block}{Kernel}
     macht die Drecksarbeit – stellt die Umgebung für Programme bereit
@@ -192,15 +201,25 @@
 \end{frame}
 
 \begin{frame}
+  \noteitem{Lizenzdialog!}
+  \noteitem{Entwicklungsmodell}
   \frametitle{Was bedeutet „Freie Software“?}
-  \begin{block}{Grundfreiheiten für Software}
-    \begin{enumerate}
-    \item Zu jedem Zwecke ausführen
-    \item Untersuchen und Verändern
-    \item Weitergeben
-    \item Weitergeben von Änderungen
-    \end{enumerate}
-  \end{block}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/vlc-license.png}\\
+      \includegraphics[width=\textwidth]{pdf-gen/gplv3-logo.pdf}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{block}{Grundfreiheiten für Software}
+        \begin{enumerate}
+        \item Zu jedem Zwecke ausführen
+        \item Untersuchen und Verändern
+        \item Weitergeben
+        \item Weitergeben von Änderungen
+        \end{enumerate}
+      \end{block}
+    \end{column}
+  \end{columns}
   % Entwicklungsmodell – OpenSource
 \end{frame}
 
@@ -219,20 +238,44 @@
 
 \section{Begriffe}
 \begin{frame}
-  \frametitle{Einige Begriffe}
-  \begin{block}{Distribution}
-    Sammlung von Software und Standardkonfiguration, Populäre
-    Distributionen: Fedora, Debian, Mint, Ubuntu, Arch Linux
-    % Symbolbild: Stammbaum der Distros
-  \end{block}
-  \begin{block}{Desktop-Umgebung}
-    Graphische Oberfläche und Standardanwendungen, Populäre
-    Desktop-Umgebungen: Unity (Ubuntu), Gnome, Mate, Cinnamon, KDE
-  \end{block}
-  \begin{block}{Datei-Manager}
-    Entspricht dem Windows-Explorer oder dem Mac OS Finder – Jede
-    Desktop-Umgebung hat einen eigenen.
-  \end{block}
+  \noteitem{Software umfasst für gewöhnlich allgemeine Freie Software, Freie Software die für die Distribution gefertigt wurde und proprietäre Software.}
+  \frametitle{Distribution}
+  \begin{itemize}
+  \item Sammlung von fertig paketierter Software und Konfiguration.
+  \item Ansprechpartner bei Problemen
+  \item Stellt (Sicherheits-)Updates bereit
+  \end{itemize}
+  \begin{exampleblock}{Beispiele}
+    Fedora, Debian, Linux Mint, Ubuntu, ArchLinux
+  \end{exampleblock}
+  % Symbolbild: Stammbaum der Distros
+\end{frame}
+
+\begin{frame}
+  \noteitem{Graphische Oberfläche: Fensterverwaltung, Menü zum Starten von Anwendungen}
+  \frametitle{Desktop-Umgebung}
+  \begin{itemize}
+  \item Graphische Oberfläche
+  \item Standardanwendungen (PDF-Anzeigetool, Taschenrechner, Mine Sweeper, Browser, E-Mail, …)
+  \end{itemize}
+  \begin{exampleblock}{Beispiele}
+    GNOME, Cinnamon, KDE, Ubuntu Unity, …
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Datei-Manager}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/file-manager.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item Graphisches Werkzeug zum Finden und Verwalten von Dateien
+      \item vgl. Windows Explorer, OS X Finder
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \section{Gründe für und gegen Linux}
@@ -254,8 +297,9 @@
   \frametitle{Kontrolle über Updates}
   \begin{itemize}
   \item Updates werden installiert, wenn und wann der Nutzer das möchte
-  \item kein verlängertes Herunterfahren durch Updates
+  \item Updates brauchen in der Regel keinen Neustart
   \item Sicherheitsupdates können gesondert installiert werden
+  \item kein verlängertes Herunterfahren durch Updates
   \end{itemize}
 \end{frame}
 
@@ -271,11 +315,18 @@
 
 \begin{frame}
   \frametitle{Privacy}
-  \begin{itemize}
-  \item telefoniert nicht nach Hause
-  \item Festplattenverschlüsselung ist typischerweise einfach (ein
-    Klick bei der Installation und ein Passwort angeben)
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{pdf-gen/privacy.pdf}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item telefoniert nicht nach Hause
+      \item Festplattenverschlüsselung ist typischerweise einfach (ein
+        Klick bei der Installation und ein Passwort angeben)
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
@@ -291,15 +342,22 @@
 
 \begin{frame}
   \frametitle{Paketverwaltung}
-  \begin{itemize}
-  \item Programme komfortabel und sicher installieren
-  \item von der Distribution bereitgestellt
-  \item für viele \emph{das} Killerfeature
-  \item App-Store auf Steroiden – seit 1998
-    % mündlich: Abhängigkeiten, Deduplizierung, Katzenbilder
-    % Programme für $alles direkt verfügbar ohne windige
-    % Download-Websites
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/pkg-manager.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item Programme komfortabel und sicher installieren
+      \item von der Distribution bereitgestellt
+      \item für viele \emph{das} Killerfeature
+      \item App-Store auf Steroiden – seit 1998
+        % mündlich: Abhängigkeiten, Deduplizierung, Katzenbilder
+        % Programme für $alles direkt verfügbar ohne windige
+        % Download-Websites
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
@@ -331,21 +389,35 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Linux neben Windows}
+  \frametitle{Linux neben Windows: Dual-Boot}
+  \begin{definition}{Dual-Boot}
+    Zwei (oder mehr) Betriebssysteme auf einem Rechner installiert haben. Beim Einschalten wählt man, welches gestartet werden soll.
+  \end{definition}
   \begin{itemize}
   \item im Prinzip kein Problem
   \item man bekommt dann ein Bootmenü zum Auswählen
   \item einziges praktisches Problem: Windows zerlegt den Bootloader
     bei größeren Updates (das muss man dann manuell beheben)
-  \item viele Windows-Programme laufen auch unter wine (ältere Spiele,
-    Bürosoftware, ...)
-  \item falls Leistung oder direkter Hardwarezugriff nicht wichtig
-    sind: Windows in einer VM
   \end{itemize}
   % TODO: Screenshot von grubd
   % zwei Folien: Dual Boot/Alternativen zu Dual Boot
   % zweite Slide: VM und wine erklären
   % Programmnamen Mark-Upen
+\end{frame}
+
+\begin{frame}
+  \frametitle{Einzelne Windows-Anwendungen verwenden}
+  \begin{columns}
+    \begin{column}[T]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{pdf-gen/wine-logo.pdf}
+    \end{column}
+    \begin{column}{0.55\textwidth}
+      \begin{itemize}
+      \item viele Windows-Programme laufen auch unter \cmd{wine} (ältere Spiele, Bürosoftware, ...)
+      \item falls (Graphik-)Leistung oder direkter Hardwarezugriff nicht wichtig sind: Windows in einer virtuellen Maschine
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \section{Programm}
@@ -368,17 +440,17 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Interesse mitzumachen?}
-  \begin{description}
-  \item[Web] \url{https://fsfw-dresden.de}\\
-    \begin{center}
-      \hspace*{-6em}
-      \includegraphics[width=4cm]{pdf-gen/website-qr.pdf}
-    \end{center}
-  \item[Mailingliste] \url{http://lists.fsfw-dresden.de/mailman/listinfo/discuss} (auch oben verlinkt)
-  \item[Treffen] SLUB (Hauptgebäude), Raum -2.115, Donnerstags in ungeraden Wochen, 18:30 Uhr
-  \end{description}
-\end{frame}
+%% \begin{frame}
+%%   \frametitle{Interesse mitzumachen?}
+%%   \begin{description}
+%%   \item[Web] \url{https://fsfw-dresden.de}\\
+%%     \begin{center}
+%%       \hspace*{-6em}
+%%       \includegraphics[width=4cm]{img-src/website-qr.pdf}
+%%     \end{center}
+%%   \item[Mailingliste] \url{http://lists.fsfw-dresden.de/mailman/listinfo/discuss} (auch oben verlinkt)
+%%   \item[Treffen] SLUB (Hauptgebäude), Raum -2.115, Donnerstags in ungeraden Wochen, 18:30 Uhr
+%%   \end{description}
+%% \end{frame}
 
 \end{document}

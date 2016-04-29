@@ -18,6 +18,9 @@ SOURCES = $(STATIC_SVG_PDF) $(GEN_SVG_PDF)
 
 do-build: build/$(TARGET).pdf
 
+build-deps: $(SOURCES)
+	@echo $(SOURCES)
+
 build/$(TARGET).pdf: $(TARGET).tex $(SOURCES)
 	mkdir -p build
 	$(PDFLATEXFULL)
@@ -26,7 +29,7 @@ $(STATIC_SVG_PDF): pdf-gen/%.pdf: img-src/%.svg
 	@mkdir -p pdf-gen
 	$(INKSCAPE) --export-pdf $@ $<
 
-$(GEN_SVG_PDF): svg-gen/%.pdf: svg-gen/%.svg
+$(GEN_SVG_PDF): pdf-gen/%.pdf: svg-gen/%.svg
 	@mkdir -p pdf-gen
 	$(INKSCAPE) --export-pdf $@ $<
 
