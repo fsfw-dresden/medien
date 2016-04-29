@@ -21,7 +21,7 @@ do-build: build/$(TARGET).pdf
 build-deps: $(SOURCES)
 	@echo $(SOURCES)
 
-build/$(TARGET).pdf: $(TARGET).tex $(SOURCES)
+build/$(TARGET).pdf: $(TARGET).tex beamercolorthemefsfw.sty $(SOURCES)
 	mkdir -p build
 	$(PDFLATEXFULL)
 

@@ -9,19 +9,22 @@
 \usepackage{textpos}
 \usepackage{hyperref}
 \usepackage{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 
 \usepackage{fontspec}
 \setmainfont{Titillium Web}
-% \setsansfont{}
+\setsansfont{Titillium Web}
 
 \usetheme{Dresden}
 \useoutertheme{infolines}
+\usecolortheme{fsfw}
 
 \setbeamerfont*{quote}{family=\sffamily}
-\addtobeamertemplate{quote begin}{}{\begin{tcolorbox}}
+\addtobeamertemplate{quote begin}{}{\begin{tcolorbox}[colback=fsfw-gray,colframe=fsfw-violet!20!fsfw-gray]}
 \addtobeamertemplate{quote end}{\end{tcolorbox}}{}
 
-\addtobeamertemplate{block example begin}{\begin{tcolorbox}}{}
+\addtobeamertemplate{block example begin}{\begin{tcolorbox}[colback=fsfw-gray,colframe=fsfw-lemon!20!fsfw-gray]}{}
 \addtobeamertemplate{block example end}{}{\end{tcolorbox}}
 
 \title{Linux Presentation Day April 2016}
@@ -34,7 +37,7 @@
 % LPD Logo in die Ecke
 \addtobeamertemplate{frametitle}{}{%
     \begin{textblock*}{130mm}(.82\textwidth,-0.5cm)
-        \includegraphics[width=2.25cm]{pdf-gen/fsfw-logo.pdf}
+      \includegraphics[width=1.8cm]{pdf-gen/lpd-logo-small.pdf}
 \end{textblock*}}
 
 \hyphenation{
@@ -77,9 +80,9 @@
 \begin{frame}
   \begin{center}%
 % LPD Logo
-\includegraphics[width=4cm]{pdf-gen/fsfw-logo-with-text.pdf}\\%
-\vspace*{-1em}{Freie Software Freies Wissen}\\[1em]
-\structure{\Large Linux Presentation Day 2016}
+\includegraphics[width=0.8\textwidth]{pdf-gen/lpd-logo.pdf}\\%
+\structure{\Large Linux Presentation Day 2016}\vspace{0.5cm}\\
+{\includegraphics[height=1cm]{pdf-gen/dkn_logo.pdf}\hspace{0.5cm}\includegraphics[height=1cm]{pdf-gen/c3d2-logo.pdf}\\\includegraphics[height=1cm]{pdf-gen/tux.pdf}\hspace{0.5cm}\includegraphics[height=1cm]{pdf-gen/fsfw-logo.pdf}}
   \end{center}
 \end{frame}
 
@@ -105,23 +108,40 @@
 
 \begin{frame}
   \frametitle{Freie Software Freies Wissen}
-  \begin{itemize}
-  \item Hochschulgruppe an der TU Dresden
-  \item Mitglieder von der HTW und Mitglieder ohne Hochschulaffiliation
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{pdf-gen/fsfw-logo-with-text.pdf}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item Hochschulgruppe an der TU Dresden
+      \item Mitglieder von der HTW und Mitglieder ohne Hochschulaffiliation
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
   \frametitle{Linux User Group Dresden}
-  \begin{itemize}
-  \item Loser Verband von Linuxinteressierten
-  \item Zweiwöchentliche Treffen
-  \item Bietet gerne Hilfe für Neueinsteiger
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{pdf-gen/tux.pdf}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item Loser Verband von Linuxinteressierten
+      \item Zweiwöchentliche Treffen
+      \item Bietet gerne Hilfe für Neueinsteiger
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
   \frametitle{Chaos Computer Club Dresden}
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{pdf-gen/c3d2-logo.pdf}
+  \end{center}
   \begin{itemize}
   \item Örtlicher Ableger des CCC e.V.
   \item Hackerspace
@@ -131,6 +151,7 @@
 
 \begin{frame}
   \frametitle{Datenkollektiv}
+  \includegraphics[width=\textwidth]{pdf-gen/dkn_logo.pdf}
   \begin{itemize}
   \item Betrieb von Mailservern seit Debatte um Vorratsdatenspeicherung
   \item Heute auch mehr Dienste
@@ -184,25 +205,48 @@
   \noteitem{Bloß nicht an Scheduling, ... aufhängen!}
   \noteitem{Userland genauer ausführen}
   \frametitle{Was ist ein Betriebssystem?}
-  \begin{block}{Kernel}
-    macht die Drecksarbeit – stellt die Umgebung für Programme bereit
-    \begin{itemize}
-    \item Scheduling, Speicherverwaltung, Hardwaretreiber, Interrupts,
-      DMA, Netzwerk, …
-    \end{itemize}
-  \end{block}
-  \begin{block}{Userland}
-    \begin{itemize}
-    \item Graphische Oberfläche
-    \item Standardwerkzeuge
-    \item Standardbibliotheken
-    \end{itemize}
-  \end{block}
+  \begin{columns}
+    \begin{column}[c]{0.49\textwidth}
+      \centering
+      \begin{tikzpicture}[node distance=-1pt]
+        \tikzset{
+          part/.style={
+            draw=fsfw-violet!20!fsfw-gray,
+            fill=fsfw-gray,
+            rectangle,
+            line width=1pt,
+            inner sep=5pt,
+          }
+        }
+        \node[part,minimum width=4em] (hardware) {Gerät};
+        \node[part,below=of hardware,minimum width=5em] (kern) {Kernel};
+        \node[part,below=of kern,minimum width=6em] (svc) {Dienste};
+        \node[part,below=of svc,minimum width=7em] (userland) {Userland};
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}[c]{0.5\textwidth}
+      \begin{block}{Kernel}
+        macht die Drecksarbeit – stellt die Umgebung für Programme bereit
+        \begin{itemize}
+        \item Scheduling, Speicherverwaltung, Hardwaretreiber, Interrupts,
+          DMA, Netzwerk, …
+        \end{itemize}
+      \end{block}
+      \begin{block}{Userland}
+        \begin{itemize}
+        \item Graphische Oberfläche
+        \item Standardwerkzeuge
+        \item Standardbibliotheken
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
   \noteitem{Lizenzdialog!}
   \noteitem{Entwicklungsmodell}
+  \noteitem{FSF und GNU}
   \frametitle{Was bedeutet „Freie Software“?}
   \begin{columns}
     \begin{column}[T]{0.45\textwidth}
@@ -225,13 +269,20 @@
 
 \begin{frame}
   \frametitle{Was ist Linux? – for real}
-  \begin{itemize}
-  \item bezeichnet eigentlich den Linux-Kernel
-  \item im allgemeinen Sprachgebrauch: ganzes Betriebssystem
-  \item Freie Software – größtenteils
-  \item große Vielfalt an Ausprägungen (Server, Embedded, diverse
-    Desktop-Systeme)
-  \end{itemize}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/linux-gnu.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item bezeichnet eigentlich den Linux-Kernel
+      \item im allgemeinen Sprachgebrauch: ganzes Betriebssystem
+      \item Freie Software – größtenteils
+      \item große Vielfalt an Ausprägungen (Server, Telefone, diverse
+        Desktop-Systeme)
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % Geschichte von Linux Slide
@@ -240,6 +291,7 @@
 \begin{frame}
   \noteitem{Software umfasst für gewöhnlich allgemeine Freie Software, Freie Software die für die Distribution gefertigt wurde und proprietäre Software.}
   \frametitle{Distribution}
+  \includegraphics[angle=-90,width=\textwidth]{pdf-gen/distros.pdf}
   \begin{itemize}
   \item Sammlung von fertig paketierter Software und Konfiguration.
   \item Ansprechpartner bei Problemen
@@ -248,19 +300,25 @@
   \begin{exampleblock}{Beispiele}
     Fedora, Debian, Linux Mint, Ubuntu, ArchLinux
   \end{exampleblock}
-  % Symbolbild: Stammbaum der Distros
 \end{frame}
 
 \begin{frame}
   \noteitem{Graphische Oberfläche: Fensterverwaltung, Menü zum Starten von Anwendungen}
   \frametitle{Desktop-Umgebung}
-  \begin{itemize}
-  \item Graphische Oberfläche
-  \item Standardanwendungen (PDF-Anzeigetool, Taschenrechner, Mine Sweeper, Browser, E-Mail, …)
-  \end{itemize}
-  \begin{exampleblock}{Beispiele}
-    GNOME, Cinnamon, KDE, Ubuntu Unity, …
-  \end{exampleblock}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/cinnamon.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{itemize}
+      \item Graphische Oberfläche
+      \item Standardanwendungen (PDF-Anzeigetool, Taschenrechner, Mine Sweeper, Browser, E-Mail, …)
+      \end{itemize}
+      \begin{exampleblock}{Beispiele}
+        GNOME, Cinnamon, KDE, Ubuntu Unity, …
+      \end{exampleblock}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \begin{frame}
@@ -389,15 +447,21 @@
 \end{frame}
 
 \begin{frame}
+  \noteitem{einziges praktisches Problem: Windows zerlegt den Bootloader bei größeren Updates (das muss man dann manuell beheben)}
   \frametitle{Linux neben Windows: Dual-Boot}
-  \begin{definition}{Dual-Boot}
-    Zwei (oder mehr) Betriebssysteme auf einem Rechner installiert haben. Beim Einschalten wählt man, welches gestartet werden soll.
-  \end{definition}
+  \begin{columns}
+    \begin{column}[T]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{img-src/grub.png}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{definition}{Dual-Boot}
+        Zwei (oder mehr) Betriebssysteme auf einem Rechner installiert haben. Beim Einschalten wählt man, welches gestartet werden soll.
+      \end{definition}
+    \end{column}
+  \end{columns}
   \begin{itemize}
   \item im Prinzip kein Problem
   \item man bekommt dann ein Bootmenü zum Auswählen
-  \item einziges praktisches Problem: Windows zerlegt den Bootloader
-    bei größeren Updates (das muss man dann manuell beheben)
   \end{itemize}
   % TODO: Screenshot von grubd
   % zwei Folien: Dual Boot/Alternativen zu Dual Boot
@@ -406,6 +470,7 @@
 \end{frame}
 
 \begin{frame}
+  \noteitem{pro/contra wine/vm (wine => performance, vm => stabilität)}
   \frametitle{Einzelne Windows-Anwendungen verwenden}
   \begin{columns}
     \begin{column}[T]{0.35\textwidth}
