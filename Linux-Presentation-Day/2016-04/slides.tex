@@ -1,4 +1,5 @@
 \documentclass[t]{beamer}
+\usepackage{pgfpages}
 \usepackage[ngerman]{babel}
 \usepackage{textcomp}
 \usepackage{subfigure}
@@ -42,6 +43,31 @@
     \tableofcontents[currentsection]
   \end{frame}
 }
+
+
+\setbeameroption{show notes on second screen=right}
+\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+\setbeamertemplate{note page}{%
+  \insertnote%
+}
+
+\AtBeginNote{
+    \let\enumerate\itemize%
+    \let\endenumerate\enditemize%
+    \hspace{-0.5cm}\begin{minipage}{\textwidth}
+        \begin{columns}
+            \column{0.4\textwidth}
+            \scriptsize
+            Current slide: \\
+            \insertslideintonotes{0.4}
+            \column{0.59\textwidth}
+}
+\AtEndNote{
+        \end{columns}
+    \end{minipage}
+}
+\newcommand{\noteitem}[1]{\note[item]{#1}}
+
 \begin{document}
 \begin{frame}
   \begin{center}%
