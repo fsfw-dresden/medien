@@ -1,0 +1,21 @@
+
+
+
+Gründung:
+Im Dez. 2014 wurde die Hochschulgruppe für Freie Software und Freies Wissen (FSFW-Dresden) aus dem Umfeld von selbst-organisierten Python- und LaTeX-Kursen heraus gegründet. Zudem gibt es personelle Überlappungen zu anderen Hochschulgruppen (Umweltinitiative, AGDSN, Fachschaftsräte).
+Am Anfang stand ein Mittagessen von 4 Leuten. Dann wurde über einen FSR ein Raum reserviert und die Gründungsveranstaltung über ca. 5 Mailverteiler und ca. 100 ausgedruckte Handzettel angekündigt. Es kamen ca. 30 Leute und der Rest ergab sich.
+
+
+Bisherige Aktivitäten:
+Aufbau eigener Infrastruktur (Webseite, Logo, Wiki, Mailingliste, Issue-Tracker), zwei Linux-Install-Parties, Veröffentlichung eines Positionspapiers (inzwischen vom StuRa-Plenum unterstützt),  Verschlüsselungsgewinnspiel, diverse Presseinterviews, LaTeX-Sprechstunde, USB-Stick mit freier Software (debian-live / windows software) für Erstis.
+
+
+Vision: Das Wissenschafts- und Bildungssystem sollte einen aufgeklärten und kritischen Umgang mit digitaler Technik und Informationen vermitteln und nicht, wie derzeit of üblich, Produktschulung betreiben (MS Office, Matlab, SPSS, ...) und Monopole stärken (Elsevier, ...). Freie Software und Freie Publikations-Lizenzen sind effektives Mittel dafür.
+Sie erlauben einerseits den Zugang und andererseits auch das Verstehen der Interna und die Anpassung für eigene Zwecke bzw. Experimente.
+
+Warum eine Hochschulgruppe?
+Gegenüber einer normalen zivilgesellschaftlichen Initiative oder einem Verein hat die Struktur einer Hochschulgruppe folgende pragmatische Vorteile:
+Einfacher Zugang zu Räumen, Möglichkeiten von Finanzanträgen (StuRa/Asta), vergleichsweise hohe Dichte an interessierten und engagierten Menschen (Studierende/MitarbeiterInnen), spezielle Kommunikationswege (Schwarze Bretter, Mailverteiler), kaum Bürokratie, niedrigschwelliger Einstieg. Außerdem enorme Multiplikationswirkung: Großteil der späteren EntscheidungsträgerInnen und alle LehrerInnen durchlaufen eine Hochschule. Vermutlich der beste Ansatzpunkt um mit guten Argumenten und Ideen dem Millionenbudget für Marketing und Lobbyarbeit eine Stimme der Vernunft entgegenzusetzen.
+
+Noch mehr Hochschulgruppen!
+Eine einzelne Gruppe kann lokal einiges erreichen. Deutlich mehr Gewicht haben die Argumente aber, wenn sie von verschieden Hochschulen unterstützt werden. Außerdem ergeben sich Synergieeffekte (gemeinsam genutzte Ressourcen). Die Gründung einer Hochschulgruppe ist denkbar einfach (siehe oben). Die FSFW-Dresden kann hierbei gerne beraten und unterstützen.
