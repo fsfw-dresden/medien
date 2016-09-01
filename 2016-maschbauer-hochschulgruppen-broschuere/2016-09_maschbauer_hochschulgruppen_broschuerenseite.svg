@@ -16,9 +16,9 @@
    width="420mm"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="2016-09_maschbauer_hochschulgruppen_broschuerenseite.svg"
-   inkscape:export-filename="/home/stefan/Projekte/FSFW/medien/corporate-design/template-a2-poster.png"
-   inkscape:export-xdpi="60.48"
-   inkscape:export-ydpi="60.48">
+   inkscape:export-filename="/media/workstick/workstickdir/projekte/TUD_FSFW/repos/medien/2016-maschbauer-hochschulgruppen-broschuere/FSFW-Seite-Export.png"
+   inkscape:export-xdpi="300.02237"
+   inkscape:export-ydpi="300.02237">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,13 +28,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="545.26031"
-     inkscape:cy="1132.0385"
+     inkscape:zoom="0.5"
+     inkscape:cx="1350.2696"
+     inkscape:cy="919.00653"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -33327,11 +33327,11 @@
     <path
        style="fill:#2aa9e0"
        inkscape:connector-curvature="0"
-       d="m 1222.9541,1852.4457 c -1.339,0.594 -2.7783,0.9953 -4.2886,1.1758 1.5416,-0.9241 2.7258,-2.3874 3.2832,-4.1311 -1.443,0.8558 -3.041,1.4771 -4.7419,1.8119 -1.362,-1.4512 -3.3026,-2.3579 -5.4503,-2.3579 -4.1236,0 -7.4672,3.3432 -7.4672,7.4669 0,0.5852 0.067,1.1551 0.1935,1.7017 -6.206,-0.3114 -11.7079,-3.2842 -15.3909,-7.8019 -0.6427,1.1028 -1.011,2.3854 -1.011,3.7539 0,2.5907 1.3183,4.8761 3.3219,6.2151 -1.2241,-0.039 -2.3754,-0.3747 -3.3821,-0.9339 0,0.031 0,0.063 0,0.094 0,3.6178 2.5739,6.6356 5.9898,7.322 -0.6265,0.1707 -1.2862,0.2618 -1.9671,0.2618 -0.4812,0 -0.9489,-0.046 -1.405,-0.1339 0.9504,2.9665 3.7079,5.1253 6.9755,5.1853 -2.5555,2.003 -5.7751,3.1967 -9.2737,3.1967 -0.6027,0 -1.197,-0.035 -1.7812,-0.1044 3.3046,2.1188 7.2295,3.355 11.4464,3.355 13.7346,0 21.2454,-11.378 21.2454,-21.2457 0,-0.3237 -0.01,-0.6456 -0.021,-0.9661 1.4587,-1.0526 2.7246,-2.3675 3.7256,-3.8651 z"
+       d="m 1230.0251,1852.4457 c -1.339,0.594 -2.7783,0.9953 -4.2886,1.1758 1.5416,-0.9241 2.7258,-2.3874 3.2832,-4.1311 -1.443,0.8558 -3.041,1.4771 -4.7419,1.8119 -1.362,-1.4512 -3.3026,-2.3579 -5.4503,-2.3579 -4.1236,0 -7.4672,3.3432 -7.4672,7.4669 0,0.5852 0.067,1.1551 0.1935,1.7017 -6.206,-0.3114 -11.7079,-3.2842 -15.3909,-7.8019 -0.6427,1.1028 -1.011,2.3854 -1.011,3.7539 0,2.5907 1.3183,4.8761 3.3219,6.2151 -1.2241,-0.039 -2.3754,-0.3747 -3.3821,-0.9339 0,0.031 0,0.063 0,0.094 0,3.6178 2.5739,6.6356 5.9898,7.322 -0.6265,0.1707 -1.2862,0.2618 -1.9671,0.2618 -0.4812,0 -0.9489,-0.046 -1.405,-0.1339 0.9504,2.9665 3.7079,5.1253 6.9755,5.1853 -2.5555,2.003 -5.7751,3.1967 -9.2737,3.1967 -0.6027,0 -1.197,-0.035 -1.7812,-0.1044 3.3046,2.1188 7.2295,3.355 11.4464,3.355 13.7346,0 21.2454,-11.378 21.2454,-21.2457 0,-0.3237 -0.01,-0.6456 -0.021,-0.9661 1.4587,-1.0526 2.7246,-2.3675 3.7256,-3.8651 z"
        id="path16273" />
     <g
        id="g16339"
-       transform="matrix(0.12395225,0,0,0.12395225,1226.9091,1847.1923)">
+       transform="matrix(0.12395225,0,0,0.12395225,1233.9801,1847.1923)">
       <path
          d="m 248.082,262.307 c 7.854,0 14.223,-6.369 14.223,-14.225 l 0,-229.27 c 0,-7.857 -6.368,-14.224 -14.223,-14.224 l -229.27,0 c -7.857,0 -14.224,6.367 -14.224,14.224 l 0,229.27 c 0,7.855 6.366,14.225 14.224,14.225 l 229.27,0 z"
          id="Blue_1_"
@@ -64926,7 +64926,7 @@
        d="M 500,250 C 500,388.07119 388.07119,500 250,500 111.92881,500 0,388.07119 0,250 0,111.92881 111.92881,0 250,0 388.07119,0 500,111.92881 500,250 z"
        cx="250"
        cy="250"
-       transform="matrix(0.04878292,0,0,0.04878292,1153.4144,1852.3774)"
+       transform="matrix(0.04878292,0,0,0.04878292,1160.4854,1852.3774)"
        r="250"
        id="circle4"
        sodipodi:cx="250"
@@ -64938,7 +64938,7 @@
        d="M 490,250 C 490,382.54834 382.54834,490 250,490 117.45166,490 10,382.54834 10,250 10,117.45166 117.45166,10 250,10 382.54834,10 490,117.45166 490,250 z"
        cx="250"
        cy="250"
-       transform="matrix(0.04878292,0,0,0.04878292,1153.4144,1852.3774)"
+       transform="matrix(0.04878292,0,0,0.04878292,1160.4854,1852.3774)"
        r="240"
        id="circle6"
        sodipodi:cx="250"
@@ -64947,7 +64947,7 @@
        sodipodi:ry="240"
        style="stroke:#000000;stroke-width:172.19104004" />
     <path
-       d="m 1165.4894,1868.5176 -3.4903,4.7215 -3.4497,-2.4333 3.4206,-5.0235 -5.4648,-1.8758 1.3009,-4.0595 5.7087,1.8584 0.077,-5.9236 0.022,-0.053 4.1872,0.03 0.2044,6.1559 5.5113,-1.841 1.2718,4.1175 -5.5113,1.8817 c -0.016,0.01 -0.021,0.03 -0.014,0.046 l 3.2463,4.8028 -3.4148,2.5378 z"
+       d="m 1172.5604,1868.5176 -3.4903,4.7215 -3.4497,-2.4333 3.4206,-5.0235 -5.4648,-1.8758 1.3009,-4.0595 5.7087,1.8584 0.077,-5.9236 0.022,-0.053 4.1872,0.03 0.2044,6.1559 5.5113,-1.841 1.2718,4.1175 -5.5113,1.8817 c -0.016,0.01 -0.021,0.03 -0.014,0.046 l 3.2463,4.8028 -3.4148,2.5378 z"
        id="path8"
        inkscape:connector-curvature="0"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.99999774" />
@@ -66684,16 +66684,16 @@
          sodipodi:role="line"
          id="tspan30346"
          x="291.97446"
-         y="1876.8676">http://fsfw-dresden.de</tspan></text>
+         y="1876.8676">https://fsfw-dresden.de</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text12554"
        y="1875.6925"
-       x="684.80542"
+       x="700.36145"
        style="font-size:37.5px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#28adb8;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
        xml:space="preserve"><tspan
          y="1875.6925"
-         x="684.80542"
+         x="700.36145"
          id="tspan12556"
          sodipodi:role="line">kontakt@fsfw-dresden.de</tspan></text>
     <image
@@ -66887,26 +66887,31 @@
        transform="matrix(0.81318681,0,0,0.81318681,-465.26851,925.61163)" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium"
-       x="609.92175"
-       y="1472.1041"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:112.00000048%;letter-spacing:-1.24000013px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium"
+       x="611.336"
+       y="1455.1335"
        id="text13029"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="112%"><tspan
          id="tspan13035"
          sodipodi:role="line"
-         x="609.92175"
-         y="1472.1041"
-         style="font-size:32px">Analog</tspan><tspan
+         x="610.716"
+         y="1455.1335"
+         style="font-size:32px;line-height:112.00000048%;letter-spacing:-1.24000013px">Man kann</tspan><tspan
          sodipodi:role="line"
-         x="609.92175"
-         y="1512.1041"
-         id="tspan13042"
-         style="font-size:32px">ist auch</tspan><tspan
+         x="610.716"
+         y="1490.9735"
+         style="font-size:32px;line-height:112.00000048%;letter-spacing:-1.24000013px"
+         id="tspan12830">auch ohne</tspan><tspan
          sodipodi:role="line"
-         x="609.92175"
-         y="1552.1041"
+         x="610.716"
+         y="1526.8136"
+         style="font-size:32px;line-height:112.00000048%;letter-spacing:-1.24000013px"
+         id="tspan12832">Computer</tspan><tspan
+         sodipodi:role="line"
+         x="610.716"
+         y="1562.6536"
          id="tspan13044"
-         style="font-size:32px">gut</tspan></text>
+         style="font-size:32px;line-height:112.00000048%;letter-spacing:-1.24000013px">Spaß haben</tspan></text>
     <rect
        y="1250.7244"
        x="295.42511"
@@ -67110,7 +67115,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path15184"
-       d="m 502.1768,1506.637 -45.90744,0"
+       d="m 500.00001,1504.7244 -45.90744,0"
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow2Lend)" />
     <path
        inkscape:connector-curvature="0"
@@ -67378,8 +67383,8 @@
            style="font-size:20px;text-align:justify;text-anchor:start" /></flowRegion><flowPara
          id="flowPara15866"
          style="font-weight:600;-inkscape-font-specification:Titillium Semi-Bold">Bisherige Aktivitäten:</flowPara><flowPara
-         id="flowPara15870">Eigene Infrastruktur (Webseite, Wiki, Mailinglisten), Linux-Install-Parties, Positionspapier,  Verschlüssel-</flowPara><flowPara
-         id="flowPara15874">ungsgewinnspiel, mtl. LaTeX-Sprechstunden, USB-Stick mit freier Software + viele weitere Ideen</flowPara></flowRoot>    <flowRoot
+         id="flowPara15870">Linux-Install-Parties, Positionspapier,  Verschlüssel-</flowPara><flowPara
+         id="flowPara15874">ungsgewinnspiel, Vorträge mtl. LaTeX-Sprech-stunden, USB-Stick mit freier Software + viele weitere Ideen.</flowPara></flowRoot>    <flowRoot
        transform="translate(-617.00001,128.99999)"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium"
        id="flowRoot15886"
@@ -67394,9 +67399,9 @@
          style="font-weight:600;-inkscape-font-specification:Titillium Semi-Bold"
          id="flowPara15892">Interesse?</flowPara><flowPara
          id="flowPara15896"
-         style="font-weight:normal;-inkscape-font-specification:Titillium Semi-Bold">Wir treffen uns in den ungeraden KW Donnerstags, 18:30 Uhr in der SLUB (Raum -2.115) zum <flowSpan
+         style="font-weight:normal;-inkscape-font-specification:Titillium Semi-Bold">Wir treffen uns in den ungeraden KW donnerstags, 18:30 Uhr in der SLUB (Raum -2.115) zum <flowSpan
    style="font-style:italic;-inkscape-font-specification:Titillium Semi-Bold Italic"
-   id="flowSpan15917">Plenum.</flowSpan> Einfach mal vorbeikommen und mitmachen</flowPara></flowRoot>    <path
+   id="flowSpan15917">Plenum.</flowSpan> Einfach mal vorbeikommen und mitmachen!</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
        id="path15939"
        d="m 1121.4595,1040.6325 0,220.8141"
@@ -67446,5 +67451,22 @@
          y="1361.8083"
          x="945.77289"
          sodipodi:role="line">Freie Software und Freies Wissen Dresden</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:104.99999523%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium"
+       x="748.5"
+       y="1404.7244"
+       id="text12829"
+       sodipodi:linespacing="105%"><tspan
+         style="line-height:104.99999523%"
+         id="tspan12835"
+         sodipodi:role="line"
+         x="748.5"
+         y="1404.7244">u.v.m.</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path12844"
+       d="m 696.02619,1433.1759 30.7596,-30.9859"
+       style="fill:none;stroke:#000000;stroke-width:1.49999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow2Lend)" />
   </g>
 </svg>
