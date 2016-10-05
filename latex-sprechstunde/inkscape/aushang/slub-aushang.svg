@@ -15,7 +15,7 @@
    height="594mm"
    width="420mm"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="sprechstunde-poster.svg"
+   sodipodi:docname="slub-aushang.svg"
    inkscape:export-filename="/home/ck/projekte/0_projekt-links/fsfw/repos/medien/latex-sprechstunde/inkscape/aushang/slub-aushang.png"
    inkscape:export-xdpi="60"
    inkscape:export-ydpi="60">
@@ -32,9 +32,9 @@
      inkscape:window-height="713"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="409.46313"
-     inkscape:cy="339.55935"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="780.97846"
+     inkscape:cy="1079.3215"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -237,7 +237,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -284,12 +284,6 @@
        id="tspan13377"
        x="-205.54613"
        y="-107.63295" /></text>
-  <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-     d="m 1276.6716,754.7444 0,25 -30,0 0,35 30,0 0,25 55,-42.46875 z"
-     id="path14471"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccc" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -63748,7 +63742,6 @@
       </g>
     </g>
     <text
-       transform="translate(0,7.4776781e-6)"
        xml:space="preserve"
        style="font-size:74.35135651px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#28adb8;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
        x="146.52641"
@@ -63760,63 +63753,72 @@
          x="146.52641"
          y="1139.5923">https://fsfw-dresden.de/sprechstunde</tspan></text>
     <text
-       transform="translate(0,7.4776781e-6)"
        xml:space="preserve"
-       style="font-size:100.65735626px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
-       x="153.37187"
-       y="667.51825"
+       style="font-size:72.11011505px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
+       x="154.80148"
+       y="687.02124"
        id="text30404"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan30406"
-         x="153.37187"
-         y="667.51825"><tspan
+         x="154.80148"
+         y="687.02124"><tspan
    style="fill:#000000;stroke:none"
    id="tspan8440">jeden </tspan>4. <tspan
    style="fill:#000000;stroke:none"
    id="tspan8442"><tspan
    style="fill:#6bbb00;fill-opacity:1;stroke:none"
-   id="tspan8444">Mittwoch</tspan> im Monat</tspan></tspan></text>
+   id="tspan8444">Mittwoch</tspan> im Monat, 19:00 Uhr</tspan></tspan></text>
     <text
-       transform="translate(0,7.4776781e-6)"
        xml:space="preserve"
        style="font-size:52.64479828px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
        x="1339.3586"
-       y="944.00757"
+       y="948.38647"
        id="text12455"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan12457"
          x="1339.3586"
-         y="944.00757"><tspan
+         y="948.38647"><tspan
    style="text-align:end;text-anchor:end;fill:#000000"
    id="tspan12461">Empfehlenswert: </tspan>Voranmeldung<tspan
    style="text-align:end;text-anchor:end;fill:#000000"
    id="tspan12463"> per Mail (inkl. Fragen)</tspan></tspan><tspan
          sodipodi:role="line"
          x="1350.9775"
-         y="1009.8135"
+         y="1014.1924"
          id="tspan12465"><tspan
            style="text-align:end;text-anchor:end;fill:#000000"
            id="tspan12467">und <tspan
    style="fill:#6bbb00;fill-opacity:1"
    id="tspan12469">Mitbringen</tspan> eines Notebooks </tspan></tspan></text>
-    <text
-       transform="translate(0,7.4776781e-6)"
-       sodipodi:linespacing="125%"
-       id="text12443"
-       y="814.94556"
-       x="145.88545"
-       style="font-size:68.20528412px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
-       xml:space="preserve"><tspan
-         y="814.94556"
+    <g
+       id="g12257"
+       transform="translate(0,8.7579245)">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path14471"
+         d="m 1276.6716,754.7444 0,25 -30,0 0,35 30,0 0,25 55,-42.46875 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         transform="translate(0,7.4776781e-6)" />
+      <text
+         transform="translate(0,7.4776781e-6)"
+         xml:space="preserve"
+         style="font-size:68.20528412px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
          x="145.88545"
-         id="tspan12445"
-         sodipodi:role="line"><tspan
-           id="tspan12447"
-           style="fill:#000000;stroke:none"><tspan
-   style="fill:#5a3ec7;fill-opacity:1"
-   id="tspan14086">Raum</tspan> -2.115, SLUB-Zentralbibliothek</tspan></tspan></text>
+         y="814.94556"
+         id="text12443"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan12445"
+           x="145.88545"
+           y="814.94556"><tspan
+             style="fill:#000000;stroke:none"
+             id="tspan12447"><tspan
+   id="tspan14086"
+   style="fill:#5a3ec7;fill-opacity:1">Raum</tspan> -2.115, SLUB-Zentralbibliothek</tspan></tspan></text>
+    </g>
     <g
        style="display:inline"
        transform="matrix(1.3813784,0,0,1.3813784,27.039127,-1150.8743)"
