@@ -1,0 +1,52 @@
+#+TITLE: Entwurf FSFW Vortrag
+#+SUBTITLE: Freie Software: Digitalisierung transparent und demokratisch gestalten
+#+AUTHOR: FSFW Workshop Plenum
+#+OPTIONS: H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+LATEX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_THEME: CambridgeUS
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+
+#+startup: hidestars
+
+* COMMENT Plan
+
+- Allgemeine Idee: Vortrag drei teilen:
+  - zuerst freie Software zeigen, die in der Schule genutzt werden kann
+  - dann sagen, dass das freie Software ist, warum das gut ist, was die
+    Freiheiten sind, usw.
+  - danach Freiheiten auf Lehrmaterialien übertragen, auf freie Lehrmaterialien
+    eingehen
+
+- Exportieren im Emacs mit =C-c C-e l O= und danach mit =C-u C-c C-e=
+
+* Freie Software für die Schule
+
+** Programme für die Schule
+
+** Gimp
+
+** LibreOffice
+
+** GeoGebra
+
+* Freiheiten von Software
+
+** Warum freie Software
+
+** Die vier Grundfreiheiten
+
+** Relevant für die Schule?
+
+* Freie Lehrmaterialien
+
+** Nicht nur Software kann frei sein!
+
+** Freie Lehrmaterialien nutzen und erzeugen
+
+** Praktisches
+
+https://www.tutory.de/
+
