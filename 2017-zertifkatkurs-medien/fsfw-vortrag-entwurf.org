@@ -92,6 +92,9 @@
     Rahmen zu sehen (Vendor Lock-In u.ä., Bewusstsein dafür, kommerziellen
     Einfluss auf gesellschaftliche Einrichtungen geringen halten fördern)
   - Vielfalt wahren, alternative Lösungswege aufzeigen
+  - marktrelevant (immer mehr Software wird frei, öffentliche Institutionen
+    wollen die von Ihnen erzeugte Software oft frei zur Verfügung stellen);
+    Links: http://ossdirectory.com, https://code.gov
 
 ** Die vier Grundfreiheiten
 
@@ -121,6 +124,7 @@ Links dazu
 - Wikipedia (besser als viele Lehrer glauben); Wikiversity?
 - Auch fachspezifisch möglich?
 - Auf https://www.tutory.de/ eingehen
+- OER, auf OpenScience an der TU verweisen
 
 * COMMENT Local Variables
 
