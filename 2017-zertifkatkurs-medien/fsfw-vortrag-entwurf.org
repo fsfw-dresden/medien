@@ -125,6 +125,8 @@ Links dazu
 - Auch fachspezifisch möglich?
 - Auf https://www.tutory.de/ eingehen
 - OER, auf OpenScience an der TU verweisen
+  - https://www.mebis.bayern.de/infoportal/empfehlung/oer/
+  - http://home.uni-leipzig.de/histodigitale/oer-portal/
 
 * COMMENT Local Variables
 
