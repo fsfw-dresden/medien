@@ -29,7 +29,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1025"
      id="namedview104"
      showgrid="false"
      inkscape:zoom="0.35355339"
@@ -237,7 +237,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63707,10 +63707,10 @@
          style="letter-spacing:-0.26755393"><tspan
    style="fill:#000000;stroke:none"
    id="tspan8440">Jeden </tspan>4. <tspan
+   id="tspan12259"
+   style="fill:#6bbb00;fill-opacity:1;stroke:none">Dienstag </tspan><tspan
    style="fill:#000000;stroke:none"
-   id="tspan8442"><tspan
-   style="fill:#6bbb00;fill-opacity:1;stroke:none"
-   id="tspan8444">Mittwoch</tspan> im Monat, 19:00 Uhr</tspan></tspan></text>
+   id="tspan8442">im Monat, 19:00 Uhr</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:53.18491364px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#5a3ec7;fill-opacity:1;stroke:none;display:inline;font-family:Titillium;-inkscape-font-specification:Titillium"
