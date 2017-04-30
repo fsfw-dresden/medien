@@ -32,6 +32,8 @@
 \setbeamerfont{block title}{size={}}
 \setbeamercolor{titlelike}{parent=structure,bg=white}
 
+\RequirePackage{ccicons}
+
 \setbeamertemplate{title page}{{
     \setbeamercolor{block body}{bg=fsfwgreen,fg=white}
     \setbeamertemplate{blocks}[rounded][shadow=true]
@@ -40,11 +42,13 @@
       \begin{block}{}
         \centering
         \vspace*{0.5\baselineskip}
-        {\LARGE \textbf{\inserttitle}}\\
+
+        \LARGE \textbf{\inserttitle}\\
 
         \medskip
 
-        {\Large \textbf{\insertsubtitle}}
+        \Large \textbf{\insertsubtitle}
+
         \vspace*{0.5\baselineskip}
       \end{block}
 
@@ -59,14 +63,10 @@
 
       \insertdate
 
-      \smallskip
-
-      \courseURL
-
       \medskip
 
       \leavevmode
-      \lower0.4cm\hbox{\includegraphics[height=2cm]{pics/fsfw-logo}}
+      \lower0.4cm\hbox{\includegraphics[height=2cm]{fsfw-logo}}
       \parbox[b]{3cm}{\small
         {\footnotesize Hochschulgruppe für}\\
         Freie Software und\\
@@ -87,7 +87,7 @@
 
 \setbeamertemplate{headline}{
   \hbox{%
-    \includegraphics[height=0.12\paperheight]{pics/fsfw-banner}
+    \includegraphics[height=0.12\paperheight]{fsfw-banner}
   }
 }
 \setbeamercolor{footline}{bg=fsfwblue,fg=white}
@@ -95,16 +95,17 @@
   % TODO: Foliennummern hinzufügen
   \hbox{}\hfill\smash{\raise0.1cm\hbox{%
     \fcolorbox{white}{white}{%
-      \includegraphics[width=1.3cm]{pics/fsfw-logo-notext}}}
+      \includegraphics[width=1.3cm]{fsfw-logo-notext}}}
   \hspace*{0.1cm}}
   \hbox{%
-    \includegraphics[height=0.12\paperheight]{pics/fsfw-banner}
+    \includegraphics[height=0.12\paperheight]{fsfw-banner}
   }
   \vskip-0.08\paperheight
 }
 
 \setbeamertemplate{blocks}[rounded][shadow=false]
 \setbeamercolor{block title}{fg=fsfwpurple}
+\RequirePackage{tikz}
 \usetikzlibrary{shapes.multipart}
 \setbeamertemplate{items}{\raisebox{0.3ex}{%
     \tikz[scale=0.13] \draw[fill] (0,0) -- (0,1) -- (0.9,0.5) -- cycle;}}
