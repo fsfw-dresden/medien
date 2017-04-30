@@ -1,0 +1,3 @@
+[submodule "Wikivortrag"]
+	path = Wikivortrag
+	url = https://github.com/fsfw-dresden/Wikivortrag
