@@ -109,7 +109,7 @@ Protokoll von nac
 - gab Workshop in Dresden zum Einsatz von Minecraft im Unterricht, ≥100
   Teilnehmer
 
-** Owncloud
+** Owncloud/NextCloud
 
 - Cloud-Lösungen für die Schule
 
