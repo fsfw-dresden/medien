@@ -37,7 +37,8 @@ Anwesende:
 
 Protokoll von nac
 
-- Soziale Ausgrenzung (einige haben weniger Geld und können sich nicht die aktuelle Technik leisten)
+- Soziale Ausgrenzung
+  - einige haben weniger Geld und können sich nicht die aktuelle Technik leisten
   - Überleitung zu FSFW
 
 - Kontrollverlust über eigene Daten
@@ -45,7 +46,7 @@ Protokoll von nac
   - Nextcloud, Anbieten von eigene Infrastruktur
   - Wiki, Redmine, Kanban (solidarisch, gemeinschaftlich)
 
-- kollaboratives Arbeiten / alternative didaktische methoden
+- kollaboratives Arbeiten / alternative didaktische Methoden
   - Dark Side: Whatsapp, ArsNova, Facebook? Properitäre Apps -> Todo Konkrete Beispiele!
   - Dark Side: geschlossene Inhalte, Urheberrechte, Elsevier + VG Wort
   - Nextcloud, Wiki, offene Inhalte + freie Lizenzen
