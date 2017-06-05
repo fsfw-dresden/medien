@@ -22,7 +22,7 @@
    inkscape:export-ydpi="600"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath1434"><path
@@ -48,9 +48,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.68599183"
-     inkscape:cx="348.30076"
-     inkscape:cy="514.63014"
+     inkscape:zoom="0.97013895"
+     inkscape:cx="84.78775"
+     inkscape:cy="576.53289"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -71,14 +71,7 @@
      id="g10"
      inkscape:groupmode="layer"
      inkscape:label="flyer-visitenkarte"
-     transform="matrix(1.3333333,0,0,-1.3333333,0,708.66139)"><rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3495"
-       width="224.19469"
-       height="147.21645"
-       x="1.1596277"
-       y="-532.41522"
-       transform="scale(1,-1)" /><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,708.66139)"><g
        id="g3476"
        transform="matrix(1.0222534,0,0,1.0222534,-2.6533214,-397.70547)"><g
          transform="matrix(0.91772152,0,0,0.91772152,2.6968317,407.31075)"
