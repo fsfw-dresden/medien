@@ -5,7 +5,7 @@
 \usepackage{csquotes}
 
 \usetheme{FSFW}
-\date{31.~Mai 2017}
+\date{18.~Dezember 2017}
 
 \begin{document}
 
@@ -20,22 +20,19 @@
   \onslide<+->
 
   \begin{block}{Problem}
-    Verwendung von Software in der Schule wünschenswert, aber
-    nicht-technische Aspekte schwierig
+    Verwendung von Software in der Schule notwendig, \\
+    aber nicht-technische Aspekte schwierig:
     \begin{itemize}
     \item Kosten
     \item Lizenzierung
     \item Datenschutz
-    \item Gleichberechtigung
+    \item Herstellerneutralität
     \end{itemize}
   \end{block}
+\end{frame}
 
-  \onslide<+->
-
-  \begin{block}{Achtung!}
-    Aspekt \enquote{kostenlos} allein nicht ausreichend (mögliche
-    Lizenzprobleme)
-  \end{block}
+\begin{frame}
+  \frametitle{Software in der Schule (2)}
 
   \onslide<+->
 
@@ -47,14 +44,28 @@
     \end{itemize}
   \end{block}
 
+  \onslide<+->
+
+  \begin{block}{Achtung!}
+    Aspekt \enquote{kostenlos} allein nicht ausreichend (mögliche
+    Lizenzprobleme, mögliche Datenschutzprobleme, \emph{vendor
+      lock-in})
+  \end{block}
+
+  \begin{block}{Probleme mit Freien Alternativen}
+    \begin{itemize}
+    \item kein Allheilmittel
+    \item Lehrkräfte haben meist nur indirekten Einfluss auf die IT
+      Infrastruktur
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{Beispiel~1: LibreOffice}
 
   \onslide<+->
-
-  \begin{block}{Was'n das?}
+  \begin{block}{Was?}
     \begin{itemize}
     \item freie Implementierung einer Office Suite (Textverarbeitung,
       Tabellenkalkulation, Präsentationen, \dots)
@@ -63,7 +74,6 @@
   \end{block}
 
   \onslide<+->
-
   \begin{block}{Warum?}
     \begin{itemize}
     \item für alle Schüler ohne Probleme verfügbar
@@ -89,7 +99,7 @@
 
   \onslide<+->
 
-  \begin{block}{Was'n das?}
+  \begin{block}{Was?}
     \begin{itemize}
     \item Freies Programm zum Datenaustausch und zur Datensynchronisation
     \item verfügbar für Windows, Mac, Linux, und Mobilgeräte
@@ -101,6 +111,10 @@
   \begin{block}{Warum?}
     \begin{itemize}
     \item Kontrolle über eigene Daten
+      \begin{itemize}
+      \item Einsatz von Dropbox und Google Drive an Schulen nicht mit
+        deutschem Datenschutzrecht vereinbar
+      \end{itemize}
     \item keine Lizenzierung notwendig (insbesondere kostenlos)
     \end{itemize}
   \end{block}
@@ -123,7 +137,7 @@
 
   \onslide<+->
 
-  \begin{block}{Was'n das?}
+  \begin{block}{Was?}
     \begin{itemize}
     \item Bildbearbeitung; pixelbasiert (Gimp) oder vektorbasiert (Inkscape)
     \item erhältlich für Windows, Mac, und Linux
@@ -274,7 +288,7 @@
         (\url{https://www.zum.de})
       \item Serlo (\url{https://de.serlo.org})
       \item \url{https://www.tutory.de/}
-      \item Wikipedia
+      \item Wikipedia und Wikiversity
       \end{itemize}
     \end{itemize}
   \end{block}
@@ -282,28 +296,67 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Lernplattformen und Freie Inhalte}
+  \begin{block}{Probleme}
+    \begin{itemize}
+    \item werden oft als Schutz gegen Urheberrechtsansprüche verwendet
+    \item für Dritte meist nicht zugänglich
+    \item früher auf Webseiten für alle zugängliche Materialien
+      verschwinden (z.\,B. Übungsaufgaben)
+    \end{itemize}
+  \end{block}
 
+  \begin{block}{Beispiel OPAL}
+    \begin{itemize}
+    \item schlechte Technische Umsetzung
+    \item Probleme mit Barrierefreiheit
+    \item Abhängigkeit vom Hersteller
+    \item Inhalte nicht für Dritte zugänglich
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Fazit}
+  \begin{block}{Freie Software und Freie Lerninhalte}
+    \begin{itemize}
+    \item unabhängig von profitorientierten Unternehmen
+      (\enquote{Demokratie statt Oligarchie})
+    \item vermeiden Lizenzprobleme
+    \item schützen vor Abhängigkeiten und schwer zu kontrollierenden Kosten
+      (Schulbuchmonopol)
+    \item erlauben das schaffen kollektiver Werte und kooperative
+      Verbesserung
+    \item Alle können beitragen, alle profitieren!
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Mehr von der FSFW}
   \onslide<+->
 
   % stolen from Datenspuren lightning talk
-  
+
   % adapted by Carsten to make it more obvious that the keywords are URLs
 
   \begin{center}
   \parbox{7.3cm}{
-  {\color{gray!20}     \url{https://fsfw-dresden.de/}}\texttt{\href{https://fsfw-dresden.de/fork}{fork}}\\[1mm]
-  {\color{gray!40}     \url{https://fsfw-dresden.de/}}\texttt{\href{https://fsfw-dresden.de/mitmachen}{mitmachen}}\\[1mm]
-  {\color{gray!60}     \url{https://fsfw-dresden.de/}}\texttt{\href{https://fsfw-dresden.de/newsletter}{newsletter}}\\[1mm]
-  {\color{gray!80}     \url{https://fsfw-dresden.de/}}\texttt{\href{https://fsfw-dresden.de/sprechstunde}{sprechstunde}}\\[3mm]
-}\\[3mm]
+    \href{https://fsfw-dresden.de/programm}{\texttt{{\color{gray!20}https://fsfw-dresden.de/}programm}}\\[1mm]
+    \href{https://fsfw-dresden.de/mitmachen}{\texttt{{\color{gray!40}https://fsfw-dresden.de/}mitmachen}}\\[1mm]
+    \href{https://fsfw-dresden.de/newsletter}{\texttt{{\color{gray!60}https://fsfw-dresden.de/}newsletter}}\\[1mm]
+    \href{https://fsfw-dresden.de/sprechstunde}{\texttt{{\color{gray!60}https://fsfw-dresden.de/}sprechstunde}}\\[3mm]
+  }\\[3mm]
 
     \includegraphics[width=50mm]{fsfw-netzwerke}\\[3mm]
-    
+
     \parbox{7.8cm}{
     Fragen?
     \begin{itemize}
-     \item[$\rightarrow$]\url{kontakt@fsfw-dresden.de}
-     \item[$\rightarrow$] (LaTeX-)Sprechstunde (jeden 4. Dienstag im Monat, 19:00 Uhr, SLUB -2.115 )
+     \item[$\rightarrow$]\href{mailto:kontakt@fsfw-dresden.de}{\texttt{kontakt@fsfw-dresden.de}}
+     \item[$\rightarrow$] (\LaTeX-)Sprechstunde (jeden 4. Dienstag im Monat, 19:00 Uhr, SLUB -2.115 )
     \end{itemize}
 
   }
