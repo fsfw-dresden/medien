@@ -1,0 +1,145 @@
+\definecolor{fsfwblue}{RGB}{40,173,184}
+\definecolor{fsfwpurple}{RGB}{101,75,199}
+\definecolor{fsfwgreen}{RGB}{107,187,0}
+\definecolor{fsfwgray}{RGB}{240,240,240}
+
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{infolines}
+
+\setbeamercolor{section in toc}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=fsfwgreen!80!gray}
+\setbeamercolor*{palette primary}{fg=fsfwpurple!60!black,bg=fsfwblue!60!white}
+\setbeamercolor*{palette secondary}{fg=fsfwpurple!70!black,bg=fsfwgray!15!white}
+\setbeamercolor*{palette tertiary}{bg=fsfwpurple!80!black,fg=fsfwgray!10!white}
+\setbeamercolor*{palette quaternary}{fg=fsfwpurple,bg=fsfwgray!5!white}
+
+\setbeamercolor*{sidebar}{fg=fsfwpurple,bg=gray!15!white}
+
+\setbeamercolor*{palette sidebar primary}{fg=fsfwpurple!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=fsfwpurple!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=fsfwgray!10!white}
+
+\setbeamercolor{titlelike}{parent=palette primary,bg=fsfwgreen}
+\setbeamercolor{frametitle}{bg=fsfwblue,fg=white}
+\setbeamerfont{frametitle}{series=\bfseries}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\setbeamercolor{data in head/foot}{fg=white}
+
+\setbeamerfont{block title}{size={}}
+\setbeamercolor{titlelike}{parent=structure,bg=white}
+
+\RequirePackage{ccicons}
+
+\setbeamertemplate{title page}{{
+    \setbeamercolor{block body}{bg=fsfwgreen,fg=white}
+    \setbeamertemplate{blocks}[rounded][shadow=true]
+    \begin{center}
+
+      \begin{block}{}
+        \centering
+        \vspace*{0.5\baselineskip}
+
+        \LARGE \textbf{\inserttitle}\\
+
+        \medskip
+
+        \Large \textbf{\insertsubtitle}
+
+        \vspace*{0.5\baselineskip}
+      \end{block}
+
+      \bigskip
+
+      {\ccLogo~\ccAttribution~\ccShareAlike}
+      \bigskip
+
+      \insertauthor
+
+      \smallskip
+
+      \insertdate
+
+      \medskip
+
+      \leavevmode
+      \lower0.4cm\hbox{\includegraphics[height=2cm]{fsfw-logo}}
+      \parbox[b]{3cm}{\small
+        {\footnotesize Hochschulgruppe für}\\
+        Freie Software und\\
+        Freies Wissen}\\
+      {\small\url{https://fsfw-dresden.de/}}
+    \end{center}
+
+  }}
+
+\setbeamertemplate{frametitle}{
+  \vskip-0.1035\paperheight
+  \hskip-0.05ex
+  \begin{beamercolorbox}[rounded=true,dp=0.5ex,ht=1.6ex,wd=\textwidth]{frametitle}
+    \smash{\insertframetitle}
+  \end{beamercolorbox}
+}
+
+\setbeamertemplate{headline}{
+  \hbox{%
+    \hskip0.1ex
+    \includegraphics[height=0.12\paperheight]{fsfw-banner}
+  }
+}
+\setbeamercolor{footline}{bg=fsfwblue,fg=white}
+\setbeamertemplate{footline}{
+  % TODO: Foliennummern hinzufügen
+  \hfill\smash{\raise0.1cm\hbox{%
+      {\color{black!50!white}\insertframenumber/\inserttotalframenumber}
+    }%
+    \hspace*{0.1cm}%
+  }
+  \hbox{%
+    \includegraphics[height=0.12\paperheight]{fsfw-banner}
+  }
+  \vskip-0.083\paperheight
+}
+
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamercolor{block title}{fg=fsfwpurple}
+\RequirePackage{tikz}
+\usetikzlibrary{shapes.multipart}
+\setbeamertemplate{items}{\raisebox{0.3ex}{%
+    \tikz[scale=0.13] \draw[fill] (0,0) -- (0,1) -- (0.9,0.5) -- cycle;}}
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{title}{series=\bfseries}
+
+\defbeamertemplate{block alerted begin}{bends}{%
+  \begin{columns}
+    \begin{column}{0.05\linewidth}
+      \dbend
+    \end{column}
+    \begin{column}{0.95\linewidth}
+      \vskip.75ex\usebeamercolor[fg]{block title
+        alerted}\insertblocktitle{}
+      \vskip.1em
+      \usebeamercolor[fg]{normal text}
+}
+\defbeamertemplate{block alerted end}{bends}{%
+    \end{column}
+  \end{columns}
+}
+
+\usetikzlibrary{arrows}
+\tikzset{>={stealth'[sep]}}
+
+\AtBeginSection{{
+  \setbeamertemplate{blocks}[rounded][shadow=true]
+  \setbeamercolor{block body}{bg=fsfwgreen,fg=white}
+  \begin{frame}
+    \begin{block}{}
+      \begin{center}
+        \strut\smash{\textbf{\Large\textcolor{white}{\insertsection}}}
+      \end{center}
+    \end{block}
+  \end{frame}
+}}

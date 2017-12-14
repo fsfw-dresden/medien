@@ -1,0 +1,170 @@
+#+TITLE: Entwurf FSFW Vortrag
+#+SUBTITLE: Freie Software: Digitalisierung transparent und demokratisch gestalten
+#+AUTHOR: FSFW Workshop Plenum
+#+LANGUAGE: de-de
+#+OPTIONS: H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+LATEX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_THEME: CambridgeUS
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+
+* COMMENT Plan
+
+- Pad: https://pad.fsfw-dresden.de/p/fsfw-dd-zmm-vorbereitung
+
+- Allgemeine Idee: Vortrag drei teilen:
+  - zuerst freie Software zeigen, die in der Schule genutzt werden kann
+  - dann sagen, dass das freie Software ist, warum das gut ist, was die
+    Freiheiten sind, usw.
+  - danach Freiheiten auf Lehrmaterialien übertragen, auf freie Lehrmaterialien
+    eingehen
+
+- Exportieren im Emacs mit =C-c C-e l O= und danach mit =C-u C-c C-e=
+
+- Fokus vom CmS-Vortrag: Datenschutz, Facebook, WhatsApp
+
+- Handouts!
+
+** Vorbereitungstreffen Zertifikatskurs am 21.04.2017
+
+Anwesende:
+- nac (CmS)
+- Daniel (FSFW)
+- Marius (CmS)
+- Dorian (Gast / CmS-Interessierter)
+
+Protokoll von nac
+
+- Soziale Ausgrenzung
+  - einige haben weniger Geld und können sich nicht die aktuelle Technik leisten
+  - Überleitung zu FSFW
+
+- Kontrollverlust über eigene Daten
+  - Mobbing, Tracking, juristischer Datenschutz
+  - Nextcloud, Anbieten von eigene Infrastruktur
+  - Wiki, Redmine, Kanban (solidarisch, gemeinschaftlich)
+
+- kollaboratives Arbeiten / alternative didaktische Methoden
+  - Dark Side: Whatsapp, ArsNova, Facebook? Properitäre Apps -> Todo Konkrete Beispiele!
+  - Dark Side: geschlossene Inhalte, Urheberrechte, Elsevier + VG Wort
+  - Nextcloud, Wiki, offene Inhalte + freie Lizenzen
+
+- Ausgrenzung durch Technik und sozialen Druck
+  - Dark Side: Whatsapp, Facebook, MS Office
+  - Standards (Verschlüsselung, doc, ... )
+  - freie Software (LibreOffice, Matrix, XMPP)
+
+- Meta
+  - Lehrer müssen lernbereit sein + bleiben
+  - keine Ahnung wie das in 10 Jahren ist!
+  - am Ende Projektideen
+
+
+* Freie Software für die Schule
+** Programme für die Schule
+
+- Linux gibt’s, ist aber für den Informatik unbedarften Anwender eventuell nicht
+  so interessant/relevant
+
+- deswegen hier nur Programme aus Anwendersicht
+
+  (Einsatz eher problemorientiert aufzeigen)
+
+- Anspruch: Alternativen aufzeigen, die für den Schulgebrauch ausreichend sind,
+  leicht verfügbar sind, aber eventuell den kommerziellen Lösungen unterlegen
+  sind
+
+** LibreOffice
+
+- Anwendung Textverarbeitung
+- leicht zu bekommen, ausreichend für den Schulgebrauch
+
+** GeoGebra
+
+- Einsatzfeld Geometrie
+- Hier netten Zusammenhang aus der Schule (Geometrie) finden, und mit Geogebra
+  illustrieren
+
+** Gimp/Inkscape
+
+- Anwendungsgebiet Bildverarbeitung
+- nicht so gut wie Adobe Photoshop, aber (Claim!) für den Schulgebrauch
+  ausreichend und leichter zu bekommen
+
+** Stellarium
+
+- Anwendung Astronomieunterricht
+
+** COMMENT Wiki-Krempel/Desktop-Wiki
+
+- Wollen wir dazu was sagen?
+- Verschiedene Erklärungen zu bestimmten Themen, um verschiedene Lerntypen zu
+  bedienen
+- Wiki benutzen üben mit Desktop Wiki?
+- wurde schon gemacht, größtenteils in den alten Ländern
+
+** COMMENT Minetest
+
+- gab Workshop in Dresden zum Einsatz von Minecraft im Unterricht, ≥100
+  Teilnehmer
+
+** Owncloud/NextCloud
+
+- Cloud-Lösungen für die Schule
+
+* Freiheiten von Software
+
+** Warum ist es relevant für die Schule, dass diese Software frei ist?
+
+- Zusammenhang zur Didaktik: Schüler können selber sehen, wie Software
+  funktioniert
+- wie korrelieren die Freiheiten zu Ansprüchen, die man in der Schule umsetzen
+  will?
+  - Verfügbarkeit der Software für alle Schüler, unabhängig vom Einkommen
+  - Verständnis für Software fördern
+  - Kompetenzen fördern, die Nutzung von Computern in einem gesellschaftlichen
+    Rahmen zu sehen (Vendor Lock-In u.ä., Bewusstsein dafür, kommerziellen
+    Einfluss auf gesellschaftliche Einrichtungen geringen halten fördern)
+  - Vielfalt wahren, alternative Lösungswege aufzeigen
+  - marktrelevant (immer mehr Software wird frei, öffentliche Institutionen
+    wollen die von Ihnen erzeugte Software oft frei zur Verfügung stellen);
+    Links: http://ossdirectory.com, https://code.gov
+
+** Die vier Grundfreiheiten
+
+- Nutzen
+- Einsehen
+- Verändern
+- Weitergeben
+
+Auf dem Handout: die üblichen Organisationen nennen (FSFE, FSF, OSI, …), weitere
+Links dazu
+
+* Freie Lehrmaterialien
+
+** Nicht nur Software kann frei sein!
+
+- das Ganze klappt auch für Lehrmaterialien (Arbeitsblätter, Aufgabensammlungen,
+  …)
+- wie sieht das aus? wie wird das rechtlich umgesetzt → auf Creative Commons
+  eingehen; Lizenzprobleme bei Lehrbuchnutzung?
+- gut für den eigenen Gebrauch (Arbeit anderer kann genutzt werden, Einblicke in
+  die Arbeit anderer möglich und gewünscht, Austausch zwischen Lehrern), und
+  auch für anderen (eigene Arbeiten werden von anderen genutzt, und eventuell
+  sogar weiter entwickelt)
+
+** Praktisches
+
+- Wikipedia (besser als viele Lehrer glauben); Wikiversity?
+- Auch fachspezifisch möglich?
+- Auf https://www.tutory.de/ eingehen
+- OER, auf OpenScience an der TU verweisen
+  - https://www.mebis.bayern.de/infoportal/empfehlung/oer/
+  - http://home.uni-leipzig.de/histodigitale/oer-portal/
+
+* COMMENT Local Variables
+
+#  LocalWords:  Inkscape GeoGebra Minetest Stellarium COMMENT Owncloud Creative
+#  LocalWords:  Lehrbuchnutzung Lizenzprobleme Commons Wikiversity
