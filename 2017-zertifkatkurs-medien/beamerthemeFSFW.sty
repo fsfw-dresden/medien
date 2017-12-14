@@ -71,36 +71,37 @@
         {\footnotesize Hochschulgruppe für}\\
         Freie Software und\\
         Freies Wissen}\\
-      {\small\url{https://fsfw-dresden.de}}
+      {\small\url{https://fsfw-dresden.de/}}
     \end{center}
 
   }}
 
 \setbeamertemplate{frametitle}{
-  \vskip0.01\paperheight
-  \hskip0.02\textwidth
-  \vskip-0.18\paperheight
-  \begin{beamercolorbox}[rounded=true,dp=0.5ex,ht=1.5ex,wd=0.96\textwidth]{frametitle}
+  \vskip-0.1035\paperheight
+  \hskip-0.05ex
+  \begin{beamercolorbox}[rounded=true,dp=0.5ex,ht=1.6ex,wd=\textwidth]{frametitle}
     \smash{\insertframetitle}
   \end{beamercolorbox}
 }
 
 \setbeamertemplate{headline}{
   \hbox{%
+    \hskip0.1ex
     \includegraphics[height=0.12\paperheight]{fsfw-banner}
   }
 }
 \setbeamercolor{footline}{bg=fsfwblue,fg=white}
 \setbeamertemplate{footline}{
   % TODO: Foliennummern hinzufügen
-  \hbox{}\hfill\smash{\raise0.1cm\hbox{%
-    \fcolorbox{white}{white}{%
-      \includegraphics[width=1.3cm]{fsfw-logo-notext}}}
-  \hspace*{0.1cm}}
+  \hfill\smash{\raise0.1cm\hbox{%
+      {\color{black!50!white}\insertframenumber/\inserttotalframenumber}
+    }%
+    \hspace*{0.1cm}%
+  }
   \hbox{%
     \includegraphics[height=0.12\paperheight]{fsfw-banner}
   }
-  \vskip-0.08\paperheight
+  \vskip-0.083\paperheight
 }
 
 \setbeamertemplate{blocks}[rounded][shadow=false]
