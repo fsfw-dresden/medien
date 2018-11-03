@@ -8,12 +8,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="654.81726"
-   height="287.19629"
-   viewBox="0 0 654.81726 287.19629"
+   width="623.30878"
+   height="286.19629"
+   viewBox="0 0 623.30878 286.19629"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="fsfw-dresden-logo-url.svg"
    inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-dresden-logo-url.png"
    inkscape:export-xdpi="100"
@@ -28,12 +28,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1145"
+     inkscape:window-height="1025"
      id="namedview3097"
      showgrid="false"
-     inkscape:zoom="1.3111111"
-     inkscape:cx="220.52987"
-     inkscape:cy="169.1679"
+     inkscape:zoom="0.65555555"
+     inkscape:cx="648.80126"
+     inkscape:cy="206.85718"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"
@@ -47,19 +47,19 @@
      inkscape:snap-global="false">
     <sodipodi:guide
        orientation="0,1"
-       position="311.83461,121.55232"
+       position="296.08037,121.05232"
        id="guide3087" />
     <sodipodi:guide
        orientation="0,1"
-       position="239.5659,246.67426"
+       position="223.81166,246.17426"
        id="guide3089" />
     <sodipodi:guide
        orientation="1,0"
-       position="27.461899,-117.70267"
+       position="40.686439,157.38136"
        id="guide3110" />
     <sodipodi:guide
        orientation="1,0"
-       position="570.7119,-81.774701"
+       position="541.78814,160.4322"
        id="guide3114" />
   </sodipodi:namedview>
   <defs
@@ -72,315 +72,301 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <rect
-     style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#ffffff;stroke:none"
      id="rect3022"
-     width="653.81726"
+     width="623.30878"
      height="286.19629"
-     x="0.5"
-     y="0.5"
+     x="-1.4398596e-06"
+     y="0"
      inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
      inkscape:export-xdpi="100"
      inkscape:export-ydpi="100" />
   <g
-     id="g5426-6-7"
-     transform="translate(-222.31976,-551.05037)"
-     inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
-     inkscape:export-xdpi="100"
-     inkscape:export-ydpi="100">
+     id="g3110"
+     transform="translate(5.6228114,-4.3687038)">
     <g
-       id="g5892-2-6-5"
-       transform="translate(65.962793,46.887011)">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 214.35635,593.74488 c 0,0 62.02172,1.15107 73.74858,16.76021 1.23222,1.70616 6.4913,1.96986 6.4913,1.96986"
-         id="path5894-4-0-6" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5896-36-6-6"
-         d="m 291.20314,611.54774 c -0.71771,-20.57437 -75.17213,-24.26226 -75.17213,-24.26226"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         d="m 293.86867,611.92689 c -0.23924,-27.03377 -75.92376,-30.62233 -75.92376,-30.62233"
-         id="path5898-2-4-1" />
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
+       transform="translate(-222.31976,-551.05037)"
+       id="g5426-6-7">
+      <g
+         transform="translate(65.962793,46.887011)"
+         id="g5892-2-6-5">
+        <path
+           id="path5894-4-0-6"
+           d="m 214.35635,593.74488 c 0,0 62.02172,1.15107 73.74858,16.76021 1.23222,1.70616 6.4913,1.96986 6.4913,1.96986"
+           style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 291.20314,611.54774 c -0.71771,-20.57437 -75.17213,-24.26226 -75.17213,-24.26226"
+           id="path5896-36-6-6"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5898-2-4-1"
+           d="m 293.86867,611.92689 c -0.23924,-27.03377 -75.92376,-30.62233 -75.92376,-30.62233"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:connector-curvature="0" />
+      </g>
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g5892-2-6-5"
+         id="use5992-1-4-0"
+         transform="matrix(-1,0,0,1,721.39224,2.8560018e-7)"
+         width="180"
+         height="180" />
+      <rect
+         y="644.16772"
+         x="358.22089"
+         height="5"
+         width="5"
+         id="rect5118-6-5-0-8-4"
+         style="fill:#6bba00;fill-opacity:1;stroke:none" />
+      <rect
+         y="634.2959"
+         x="363.96158"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-0-6-9"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
+      <rect
+         y="636.01196"
+         x="353.56042"
+         height="5"
+         width="5"
+         id="rect5118-6-5-6-5-7"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="626.60608"
+         x="338.79501"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-1-2-6"
+         style="fill:#6bba00;fill-opacity:1;stroke:none" />
+      <rect
+         y="621.16168"
+         x="350.36136"
+         height="10"
+         width="10"
+         id="rect5118-0-4-4"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
+      <rect
+         y="625.99188"
+         x="363.58044"
+         height="5"
+         width="5"
+         id="rect5118-6-5-8-3-1"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="630.88538"
+         x="375.93069"
+         height="5"
+         width="5"
+         id="rect5118-6-5-4-1-8"
+         style="fill:#5a40c6;fill-opacity:1;stroke:none" />
+      <rect
+         y="620.08142"
+         x="371.65137"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-9-8-4"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="627.85608"
+         x="385.71771"
+         height="5"
+         width="5"
+         id="rect5118-6-5-2-1-2"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
+      <rect
+         y="610.67554"
+         x="294.90167"
+         height="10"
+         width="10"
+         id="rect5118-04-7-7"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="620.86536"
+         x="310.91705"
+         height="5"
+         width="5"
+         id="rect5118-6-5-66-8-2"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
+      <rect
+         y="617.37"
+         x="330.72406"
+         height="5"
+         width="5"
+         id="rect5118-6-5-9-7-1"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="604.23578"
+         x="319.9201"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-3-5-4"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="604.00275"
+         x="343.22247"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-55-9-1"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
+      <rect
+         y="608.74811"
+         x="361.01715"
+         height="5"
+         width="5"
+         id="rect5118-6-5-86-5-6"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="608.8114"
+         x="399.06329"
+         height="10"
+         width="10"
+         id="rect5118-8-1-5"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="611.31134"
+         x="375.93069"
+         height="5"
+         width="5"
+         id="rect5118-6-5-1-5-8"
+         style="fill:#6bba00;fill-opacity:1;stroke:none" />
+      <rect
+         y="622.41132"
+         x="410.18518"
+         height="5"
+         width="5"
+         id="rect5118-6-5-84-7-5"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         y="612.70947"
+         x="421.37036"
+         height="5"
+         width="5"
+         id="rect5118-6-5-62-2-9"
+         style="fill:#5a40c6;fill-opacity:1;stroke:none" />
+      <rect
+         y="616.58606"
+         x="339.72711"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-8-6-4"
+         style="fill:#5a40c6;fill-opacity:1;stroke:none" />
+      <rect
+         y="608.43018"
+         x="387.26398"
+         height="7.5"
+         width="7.5"
+         id="rect5118-6-80-0-7"
+         style="fill:#2cabb7;fill-opacity:1;stroke:none" />
     </g>
-    <use
-       height="180"
-       width="180"
-       transform="matrix(-1,0,0,1,721.39224,2.8560018e-7)"
-       id="use5992-1-4-0"
-       xlink:href="#g5892-2-6-5"
-       y="0"
-       x="0" />
-    <rect
-       style="fill:#6bba00;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-0-8-4"
-       width="5"
-       height="5"
-       x="358.22089"
-       y="644.16772" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-6-0-6-9"
-       width="7.5"
-       height="7.5"
-       x="363.96158"
-       y="634.2959" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-6-5-7"
-       width="5"
-       height="5"
-       x="353.56042"
-       y="636.01196" />
-    <rect
-       style="fill:#6bba00;fill-opacity:1;stroke:none"
-       id="rect5118-6-1-2-6"
-       width="7.5"
-       height="7.5"
-       x="338.79501"
-       y="626.60608" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-0-4-4"
-       width="10"
-       height="10"
-       x="350.36136"
-       y="621.16168" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-8-3-1"
-       width="5"
-       height="5"
-       x="363.58044"
-       y="625.99188" />
-    <rect
-       style="fill:#5a40c6;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-4-1-8"
-       width="5"
-       height="5"
-       x="375.93069"
-       y="630.88538" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-9-8-4"
-       width="7.5"
-       height="7.5"
-       x="371.65137"
-       y="620.08142" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-2-1-2"
-       width="5"
-       height="5"
-       x="385.71771"
-       y="627.85608" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-04-7-7"
-       width="10"
-       height="10"
-       x="294.90167"
-       y="610.67554" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-66-8-2"
-       width="5"
-       height="5"
-       x="310.91705"
-       y="620.86536" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-9-7-1"
-       width="5"
-       height="5"
-       x="330.72406"
-       y="617.37" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-3-5-4"
-       width="7.5"
-       height="7.5"
-       x="319.9201"
-       y="604.23578" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-6-55-9-1"
-       width="7.5"
-       height="7.5"
-       x="343.22247"
-       y="604.00275" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-86-5-6"
-       width="5"
-       height="5"
-       x="361.01715"
-       y="608.74811" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-8-1-5"
-       width="10"
-       height="10"
-       x="399.06329"
-       y="608.8114" />
-    <rect
-       style="fill:#6bba00;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-1-5-8"
-       width="5"
-       height="5"
-       x="375.93069"
-       y="611.31134" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-84-7-5"
-       width="5"
-       height="5"
-       x="410.18518"
-       y="622.41132" />
-    <rect
-       style="fill:#5a40c6;fill-opacity:1;stroke:none"
-       id="rect5118-6-5-62-2-9"
-       width="5"
-       height="5"
-       x="421.37036"
-       y="612.70947" />
-    <rect
-       style="fill:#5a40c6;fill-opacity:1;stroke:none"
-       id="rect5118-6-8-6-4"
-       width="7.5"
-       height="7.5"
-       x="339.72711"
-       y="616.58606" />
-    <rect
-       style="fill:#2cabb7;fill-opacity:1;stroke:none"
-       id="rect5118-6-80-0-7"
-       width="7.5"
-       height="7.5"
-       x="387.26398"
-       y="608.43018" />
-  </g>
-  <g
-     style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
-     id="text5950-5-5-8"
-     transform="matrix(1.1195668,0,0,1.1195668,-228.92769,-915.8692)"
-     inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
-     inkscape:export-xdpi="100"
-     inkscape:export-ydpi="100">
-    <path
-       inkscape:connector-curvature="0"
-       d="m 255.90725,967.90002 6.66,0 0,-15.6 15.66,0 0,-5.82 -15.66,0 0,-13.86 18.84,0 0,-5.82 -25.5,0 0,41.1 z"
-       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
-       id="path3561" />
-    <path
-       inkscape:connector-curvature="0"
-       d="m 311.91069,927.52002 c 0,0 -7.8,-1.44 -13.02,-1.44 -8.22,0 -13.68,3.42 -13.68,11.7 0,7.14 3.84,9.84 12.72,12.12 6.3,1.5 8.16,2.7 8.16,6.18 0,4.32 -2.34,6.6 -7.44,6.6 -4.26,0 -12.36,-1.08 -12.36,-1.08 l -0.66,5.34 c 0,0 8.1,1.62 13.44,1.62 8.1,0 13.74,-3.9 13.74,-12.9 0,-7.02 -3.12,-9.3 -11.76,-11.7 -7.02,-1.92 -9.18,-2.82 -9.18,-6.66 0,-3.54 2.58,-5.34 7.62,-5.34 3.48,0 11.88,0.96 11.88,0.96 l 0.54,-5.4 z"
-       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
-       id="path3563" />
-    <path
-       inkscape:connector-curvature="0"
-       d="m 320.00881,967.90002 6.66,0 0,-15.6 15.66,0 0,-5.82 -15.66,0 0,-13.86 18.84,0 0,-5.82 -25.5,0 0,41.1 z"
-       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
-       id="path3565" />
-    <path
-       inkscape:connector-curvature="0"
-       d="m 348.46663,926.80002 8.04,41.1 10.8,0 7.02,-32.94 7.08,32.94 10.74,0 8.1,-41.1 -7.02,0 -5.88,35.34 -1.32,0 -7.8,-35.22 -7.8,0 -7.8,35.22 -1.26,0 -5.88,-35.34 -7.02,0 z"
-       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
-       id="path3567" />
-    <rect
-       style="fill:#002553;fill-opacity:1;stroke:#002553;stroke-width:0.08932026;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3061"
-       width="25.168953"
-       height="0"
-       x="792.45758"
-       y="308.89825"
-       transform="translate(238.07693,843.23096)" />
-  </g>
-  <g
-     id="g3067"
-     transform="translate(56.003474,32.947137)"
-     inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
-     inkscape:export-xdpi="100"
-     inkscape:export-ydpi="100">
-    <text
-       sodipodi:linespacing="125%"
-       id="text3023"
-       y="36.879326"
-       x="255.92422"
-       style="font-size:35.10892105px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:-1.13226271px;word-spacing:-1.15859461px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium"
-         id="tspan3029"
-         y="36.879326"
+    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
+       transform="matrix(1.1195668,0,0,1.1195668,-228.92769,-915.8692)"
+       id="text5950-5-5-8"
+       style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold">
+      <path
+         id="path3561"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
+         d="m 255.90725,967.90002 6.66,0 0,-15.6 15.66,0 0,-5.82 -15.66,0 0,-13.86 18.84,0 0,-5.82 -25.5,0 0,41.1 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3563"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
+         d="m 311.91069,927.52002 c 0,0 -7.8,-1.44 -13.02,-1.44 -8.22,0 -13.68,3.42 -13.68,11.7 0,7.14 3.84,9.84 12.72,12.12 6.3,1.5 8.16,2.7 8.16,6.18 0,4.32 -2.34,6.6 -7.44,6.6 -4.26,0 -12.36,-1.08 -12.36,-1.08 l -0.66,5.34 c 0,0 8.1,1.62 13.44,1.62 8.1,0 13.74,-3.9 13.74,-12.9 0,-7.02 -3.12,-9.3 -11.76,-11.7 -7.02,-1.92 -9.18,-2.82 -9.18,-6.66 0,-3.54 2.58,-5.34 7.62,-5.34 3.48,0 11.88,0.96 11.88,0.96 l 0.54,-5.4 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3565"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
+         d="m 320.00881,967.90002 6.66,0 0,-15.6 15.66,0 0,-5.82 -15.66,0 0,-13.86 18.84,0 0,-5.82 -25.5,0 0,41.1 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3567"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium Semi-Bold"
+         d="m 348.46663,926.80002 8.04,41.1 10.8,0 7.02,-32.94 7.08,32.94 10.74,0 8.1,-41.1 -7.02,0 -5.88,35.34 -1.32,0 -7.8,-35.22 -7.8,0 -7.8,35.22 -1.26,0 -5.88,-35.34 -7.02,0 z"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="translate(238.07693,843.23096)"
+         y="308.89825"
+         x="792.45758"
+         height="0"
+         width="25.168953"
+         id="rect3061"
+         style="fill:#002553;fill-opacity:1;stroke:#002553;stroke-width:0.08932026;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
+       transform="translate(8.7153302,32.947137)"
+       id="g3067">
+      <text
+         xml:space="preserve"
+         style="font-size:35.10892105px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:-1.13226271px;word-spacing:-1.15859461px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
          x="255.92422"
-         sodipodi:role="line">Hochschulgruppe für</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:43.95228195px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:-1.18000007px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="255.16849"
-       y="85.158615"
-       id="text3031"
-       sodipodi:linespacing="125%"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:-1.18000007px;font-family:Titillium;-inkscape-font-specification:Titillium"
-         sodipodi:role="line"
-         x="255.16849"
+         y="36.879326"
+         id="text3023"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="255.92422"
+           y="36.879326"
+           id="tspan3029"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:Titillium">Hochschulgruppe für</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3031"
          y="85.158615"
-         id="tspan3037"><tspan
-           id="tspan3059"
-           style="font-size:44px">Freie Software</tspan><tspan
-           dx="0 -2.2881355"
-           id="tspan3057"
-           style="font-size:40px"> &amp;</tspan></tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3053"
-       y="133.33488"
-       x="255.17255"
-       style="font-size:43.95228195px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:1.51000059px;word-spacing:10.8099947px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         dx="0 0 0 0 0 0 0 3.0508473"
-         id="tspan3055"
-         y="133.33488"
+         x="255.16849"
+         style="font-size:43.95228195px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:-1.18000007px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3037"
+           y="85.158615"
+           x="255.16849"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:-1.18000007px;font-family:Titillium;-inkscape-font-specification:Titillium"><tspan
+             style="font-size:44px"
+             id="tspan3059">Freie Software</tspan><tspan
+             style="font-size:40px"
+             id="tspan3057"
+             dx="0 -2.2881355"> &amp;</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:43.95228195px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:1.51000059px;word-spacing:10.8099947px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
          x="255.17255"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:1.51000059px;word-spacing:10.8099947px;font-family:Titillium;-inkscape-font-specification:Titillium">Freies Wissen</tspan></text>
-  </g>
-  <g
-     id="g3081"
-     transform="matrix(1.0003728,0,0,1,-338.02794,224.76229)"
-     inkscape:export-filename="/home/ck/projekte/TUD_FSFW/repos/medien/corporate-design/fsfw-logo-url.png"
-     inkscape:export-xdpi="100"
-     inkscape:export-ydpi="100">
+         y="133.33488"
+         id="text3053"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:1.51000059px;word-spacing:10.8099947px;font-family:Titillium;-inkscape-font-specification:Titillium"
+           sodipodi:role="line"
+           x="255.17255"
+           y="133.33488"
+           id="tspan3055"
+           dx="0 0 0 0 0 0 0 3.0508473">Freies Wissen</tspan></text>
+    </g>
     <text
        xml:space="preserve"
-       style="font-size:45.9562645px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:-3.81641912px;word-spacing:11.3028717px;fill:#000000;fill-opacity:1;stroke:none;font-family:TlwgMono;-inkscape-font-specification:TlwgMono Medium"
-       x="390.96066"
-       y="9.3030348"
-       id="text3063"
+       style="font-size:49.46587372px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0.24000002px;word-spacing:-1.63237417px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="53.860104"
+       y="239.6851"
+       id="text3039"
        sodipodi:linespacing="125%"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;letter-spacing:-3.81641912px;word-spacing:11.3028717px;font-family:TlwgMono;-inkscape-font-specification:TlwgMono Medium"
+         dx="0 0 0 0 0 0 0 -8.3898306"
          sodipodi:role="line"
-         x="390.96066"
-         y="9.3030348"
-         id="tspan3065">https://fsfw-dresden.de</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3077"
-       y="9.6189594"
-       x="391.27661"
-       style="font-size:45.9562645px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:-3.81641912px;word-spacing:11.3028717px;fill:#000000;fill-opacity:1;stroke:none;font-family:TlwgMono;-inkscape-font-specification:TlwgMono Medium"
-       xml:space="preserve"><tspan
-         id="tspan3079"
-         y="9.6189594"
-         x="391.27661"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;letter-spacing:-3.81641912px;word-spacing:11.3028717px;font-family:TlwgMono;-inkscape-font-specification:TlwgMono Medium">https://fsfw-dresden.de</tspan></text>
+         x="53.860104"
+         y="239.6851"
+         id="tspan3041"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:0.24000002px;font-family:Titillium;-inkscape-font-specification:Titillium">https://fsfw-dresden.de</tspan></text>
   </g>
 </svg>
