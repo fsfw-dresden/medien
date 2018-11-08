@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" version="6.4.1" root="/home/norman/Projects/FSFW-Ringvorlesung" producer="main bin" LC_NUMERIC="en_US.utf8">
+ <profile width="1920" frame_rate_den="1" height="1080" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" colorspace="709" sample_aspect_den="1" description="HD 1080p 25 fps" progressive="1" sample_aspect_num="1"/>
+ <producer id="1" title="Anonymous Submission" out="124" in="0">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" out="125" height="1080" LC_NUMERIC="en_US.utf8">
+ &lt;item z-index="3" type="QGraphicsSvgItem">
+  &lt;position x="781" y="691">
+   &lt;transform zoom="200">2,0,0,0,2,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content url="/home/norman/Projects/fsfw-medien/corporate-design/logo-pixelbook-with-wordmark.svg"/>
+ &lt;/item>
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="154" y="557">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="93" shadow="0;#64000000;3;3;3" font="Sans" font-underline="0" font-pixel-size="80" line-spacing="0" box-width="1611" font-color="85,170,255,255" alignment="4">Wintersemester 2018/2019, Hochschule&lt;/content>
+ &lt;/item>
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="237" y="228">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="279" shadow="0;#64000000;3;3;3" font="Sans" font-underline="0" font-pixel-size="80" line-spacing="0" box-width="1446" font-color="85,170,255,255" alignment="4">Ringvorlesung
+"Ein Gewinn für alle: Freie Software 
+und Freies Wissens als Beruf"&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="kdenlive:file_hash">6e4b428704876c8d0d9569e57b952b85</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="2" title="Anonymous Submission" out="124" in="0">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" out="125" height="1080" LC_NUMERIC="en_US.utf8">
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="537" y="896">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="78" font-outline-color="0,0,0,255" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-outline="0" font-pixel-size="67" box-width="846" font-color="85,170,255,255" alignment="1">Datum, Urls, #Hashtags?&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="85" y="273">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="390" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="67" line-spacing="0" box-width="1749" font-color="85,170,255,255" alignment="4">Open Data – maschinenlesbare Öffentlichkeit;
+staatliche Projektförderung mit dem Prototype Fund
+
+Katharina Meyer &amp;amp; Fiona Krakenbürger
+Open Knowledge Foundation&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="kdenlive:file_hash">7efc6f8861341acbda2d0aba16222443</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="4" title="Anonymous Submission" out="124" in="0">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Template title clip</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="templatetext">Ringvorlesung
+"Ein Gewinn für alle: Freie Software 
+und Freies Wissens als Beruf"
+
+Name und grobe Tätigkeiten aller Beteiligten
+Danksagung
+Lizenz (natürlich eine freie!)
+CC-By-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/deed.de
+andere Vorschläge?
+URLs und Kontaktangaben von uns und... (ggf. mit logo)?
+Bitte um Rückmeldung zwecks (interner?) Evaluation?
+diese Ringvorlesung wurde mit (u.a. mit folgender) Freier Software aufgezeichnet/ organisiert?
+Sw benennen?</property>
+  <property name="force_reload">0</property>
+  <property name="kdenlive:file_size">538</property>
+  <property name="kdenlive:file_hash">c8d2be1967e388bb6d03e27555249944</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" out="125" height="1080" LC_NUMERIC="en_US.utf8">
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="1" y="443">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="1840" font-outline-color="0,0,0,255" shadow="0;#ff000000;99;0;0" font="Arial Black" font-underline="0" font-outline="2.7" font-pixel-size="79" line-spacing="0" box-width="1785" font-color="254,255,240,255" alignment="4">Ringvorlesung
+"Ein Gewinn für alle: Freie Software 
+und Freies Wissens als Beruf"
+
+Name und grobe Tätigkeiten aller Beteiligten
+Danksagung
+Lizenz (natürlich eine freie!)
+CC-By-SA 4.0: https://creativecommons.org/
+licenses/by-sa/4.0/deed.de
+andere Vorschläge?
+URLs und Kontaktangaben von uns und... (
+ggf. mit logo)?
+Bitte um Rückmeldung zwecks (interner?) 
+Evaluation?
+diese Ringvorlesung wurde mit (u.a. mit 
+folgender) Freier Software aufgezeichnet/ 
+organisiert? Sw benennen?
+
+
+&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,-692.22,1920,1080"/>
+ &lt;endviewport rect="-3.64326,613.89,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="global_feed">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <playlist id="main bin">
+  <property name="kdenlive:docproperties.audiotargettrack">2</property>
+  <property name="kdenlive:docproperties.decimalPoint">.</property>
+  <property name="kdenlive:docproperties.dirtypreviewchunks"/>
+  <property name="kdenlive:docproperties.disablepreview">0</property>
+  <property name="kdenlive:docproperties.documentid">1541697520483</property>
+  <property name="kdenlive:docproperties.enableproxy">0</property>
+  <property name="kdenlive:docproperties.generateimageproxy">0</property>
+  <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
+  <property name="kdenlive:docproperties.position">0</property>
+  <property name="kdenlive:docproperties.previewchunks"/>
+  <property name="kdenlive:docproperties.previewextension"/>
+  <property name="kdenlive:docproperties.previewparameters"/>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
+  <property name="kdenlive:docproperties.proxyextension">mpg</property>
+  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
+  <property name="kdenlive:docproperties.proxyminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyparams">-vf scale=640:-1 -g 5 -qscale 6 -ab 128k -vcodec mpeg2video -acodec mp2</property>
+  <property name="kdenlive:docproperties.version">0.95</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.videotargettrack">3</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">100</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:documentnotes"/>
+  <property name="kdenlive:clipgroups"/>
+  <property name="xml_retain">1</property>
+  <entry out="124" producer="1" in="0"/>
+  <entry out="124" producer="2" in="0"/>
+  <entry out="124" producer="4" in="0"/>
+ </playlist>
+ <producer id="black" out="500" in="0">
+  <property name="length">15000</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+  <property name="set.test_audio">0</property>
+ </producer>
+ <playlist id="black_track">
+  <entry out="442" producer="black" in="0"/>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:track_name">Audio 2</property>
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist2">
+  <property name="kdenlive:track_name">Audio 1</property>
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:track_name">Video 1</property>
+  <entry out="124" producer="1" in="0"/>
+  <entry out="124" producer="2" in="0"/>
+  <blank length="67"/>
+  <entry out="124" producer="4" in="0"/>
+ </playlist>
+ <playlist id="playlist4">
+  <property name="kdenlive:track_name">Video 2</property>
+ </playlist>
+ <playlist id="playlist5">
+  <property name="kdenlive:track_name">Video 3</property>
+ </playlist>
+ <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="442" in="0">
+  <track producer="black_track"/>
+  <track producer="playlist1" hide="video"/>
+  <track producer="playlist2" hide="video"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition4">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition5">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition6">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition7">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="internal_added">237</property>
+  </transition>
+ </tractor>
+</mlt>
