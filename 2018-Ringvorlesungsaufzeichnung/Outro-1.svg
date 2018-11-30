@@ -10,8 +10,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   viewBox="0 0 1800 2438.4375"
-   height="2601"
+   viewBox="0 0 1800 2625"
+   height="2800"
    width="1920"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="Outro-1.svg"
@@ -31,9 +31,9 @@
      inkscape:window-height="1016"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.29069157"
-     inkscape:cx="1638.8186"
-     inkscape:cy="1357.625"
+     inkscape:zoom="0.41109996"
+     inkscape:cx="952.13295"
+     inkscape:cy="2170.6189"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -156,7 +156,7 @@
   </metadata>
   <g
      id="g29517"
-     transform="translate(3.6185662,333.71316)">
+     transform="translate(3.6185662,520.27566)">
     <rect
        y="1954.7244"
        x="0"
@@ -31457,7 +31457,7 @@
   </g>
   <g
      id="g16380"
-     transform="translate(3.6185662,333.71316)">
+     transform="translate(3.6185662,520.27566)">
     <rect
        y="1833.6632"
        x="1228.106"
@@ -31503,10 +31503,10 @@
      width="3000"
      height="60"
      x="-6.381434"
-     y="2228.4375" />
+     y="2415" />
   <g
      id="g4293"
-     transform="translate(3.6185662,333.71316)">
+     transform="translate(3.6185662,520.27566)">
     <g
        transform="translate(90,1834.7244)"
        id="g4199">
@@ -31726,7 +31726,7 @@
   </g>
   <g
      id="g33990"
-     transform="translate(3.6185662,-1954.4431)">
+     transform="translate(3.6185662,-1956.2225)">
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect33992"
@@ -63029,20 +63029,20 @@
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="291.56558"
-     y="2266.1555"
+     y="2452.718"
      id="text13383"><tspan
        sodipodi:role="line"
        id="tspan13385"
        x="291.56558"
-       y="2266.1555"
+       y="2452.718"
        style="font-size:25px;line-height:1.25">Hochschulgruppe für Freie Software und Freies Wissen Dresden</tspan></text>
   <text
      id="text13387"
-     y="2206.1555"
+     y="2392.718"
      x="291.56558"
      style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0%;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#28adb8;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      xml:space="preserve"><tspan
-       y="2206.1555"
+       y="2392.718"
        x="291.56558"
        id="tspan13389"
        sodipodi:role="line"
@@ -63051,25 +63051,23 @@
      xml:space="preserve"
      id="flowRoot56460"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;line-height:1.25;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     transform="matrix(0.93750001,0,0,0.93750001,44.229626,-962.06324)"><flowRegion
+     transform="matrix(0.93750001,0,0,0.93750001,-39.825203,-963.8427)"><flowRegion
        id="flowRegion56462"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle"><rect
          id="rect56464"
-         width="1712.4789"
-         height="398.92969"
+         width="1884.4825"
+         height="605.33405"
          x="58.379963"
          y="1194.2001"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle" /></flowRegion><flowPara
        id="flowPara56474"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">Ringvorlesung</flowPara><flowPara
-       id="flowPara85231"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">&quot;Ein Gewinn für alle: Freie Software </flowPara><flowPara
        id="flowPara85233"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">und Freies Wissens als Beruf&quot;</flowPara></flowRoot>  <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">&quot;Ein Gewinn für alle: Freie Software und Freies Wissen als Beruf&quot;</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot56478"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;line-height:1.25;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     transform="matrix(0.91684584,0,0,0.93750001,-47.430734,-216.51244)"><flowRegion
+     transform="matrix(0.91684584,0,0,0.93750001,-50.858718,-139.63717)"><flowRegion
        id="flowRegion56480"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle"><rect
          id="rect56482"
@@ -63083,7 +63081,8 @@
        id="flowPara87241">Lizenz (natürlich eine freie!)CC-By-SA 4.0: </flowPara><flowPara
        id="flowPara9059" /><flowPara
        id="flowPara9063" /><flowPara
-       id="flowPara87245">URLs und Kontaktangaben von uns und...</flowPara><flowPara
+       id="flowPara87245"></flowPara><flowPara
+       id="flowPara9088">URLs und Kontaktangaben von uns und...</flowPara><flowPara
        id="flowPara87257">(ggf. mit Logo)?</flowPara><flowPara
        id="flowPara87249">diese Ringvorlesung wurde mit (u.a. folgender) Freier Software aufgezeichnet/ organisiert?</flowPara><flowPara
        id="flowPara87251" /><flowPara
@@ -63113,7 +63112,7 @@
      xml:space="preserve"
      id="flowRoot56486"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     transform="translate(3.6185662,333.71316)"><flowRegion
+     transform="translate(3.6185662,520.27566)"><flowRegion
        id="flowRegion56488"><rect
          id="rect56490"
          width="340.54977"
@@ -63123,7 +63122,7 @@
        id="flowPara56492" /></flowRoot>  <g
      id="layer1"
      inkscape:label="Layer 1"
-     transform="matrix(3.75,0,0,3.75,680.85164,939.745)">
+     transform="matrix(3.7499999,0,0,3.75,680.85164,1014.375)">
     <g
        inkscape:export-ydpi="300.23013"
        inkscape:export-xdpi="300.23013"
