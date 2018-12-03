@@ -14,10 +14,10 @@
    height="1080"
    width="1920"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="Intro-1.svg"
-   inkscape:export-filename="/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Intro-1.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   sodipodi:docname="Hintergrund.svg"
+   inkscape:export-filename="/home/stefan/Projekte/FSFW/medien/corporate-design/template-a2-poster.png"
+   inkscape:export-xdpi="60.48"
+   inkscape:export-ydpi="60.48">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -31,9 +31,9 @@
      inkscape:window-height="1016"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.41109996"
-     inkscape:cx="483.66272"
-     inkscape:cy="572.25288"
+     inkscape:zoom="0.20554998"
+     inkscape:cx="1122.1523"
+     inkscape:cy="896.91885"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -63047,31 +63047,4 @@
        id="tspan13389"
        sodipodi:role="line"
        style="font-size:25px;line-height:1.25">www.fsfw-dresden.de</tspan></text>
-  <flowRoot
-     xml:space="preserve"
-     id="flowRoot56486"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     transform="translate(0,-1092.2245)"><flowRegion
-       id="flowRegion56488"><rect
-         id="rect56490"
-         width="340.54977"
-         height="63.244957"
-         x="1167.5992"
-         y="985.00519" /></flowRegion><flowPara
-       id="flowPara56492" /></flowRoot>  <flowRoot
-     transform="matrix(0.9375,0,0,0.9375,14.459089,-291.55431)"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.86000001;fill:#000000;fill-opacity:1;stroke:none"
-     id="flowRoot46872"
-     xml:space="preserve"><flowRegion
-       id="flowRegion46874"><rect
-         y="459.58548"
-         x="107.02993"
-         height="846.50946"
-         width="1668.6938"
-         id="rect46876" /></flowRegion><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:106.66666412px;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold';text-align:center;text-anchor:middle"
-       id="flowPara46878">Ringvorlesung</flowPara><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:106.66666412px;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold';text-align:center;text-anchor:middle"
-       id="flowPara46880">&quot;Ein Gewinn für alle: Freie Software </flowPara><flowPara
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:106.66666412px;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold';text-align:center;text-anchor:middle"
-       id="flowPara46882">und Freies Wissens als Beruf&quot;</flowPara></flowRoot></svg>
+</svg>
