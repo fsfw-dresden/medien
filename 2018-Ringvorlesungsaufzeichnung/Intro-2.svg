@@ -13,7 +13,7 @@
    viewBox="0 0 1800 1012.5"
    height="1080"
    width="1920"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="Intro-2.svg"
    inkscape:export-filename="/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Intro-2.png"
    inkscape:export-xdpi="300"
@@ -27,15 +27,15 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-width="1366"
+     inkscape:window-height="708"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.29069157"
-     inkscape:cx="-868.6144"
-     inkscape:cy="485.82991"
+     inkscape:zoom="0.41109996"
+     inkscape:cx="1164.0225"
+     inkscape:cy="507.47454"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="31"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      fit-margin-top="0"
@@ -31454,48 +31454,6 @@
        width="8"
        id="rect19911"
        style="fill:#f0f0f0;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-  </g>
-  <g
-     id="g16380"
-     transform="translate(0,-1092.2245)">
-    <rect
-       y="1833.6632"
-       x="1228.106"
-       height="61.061279"
-       width="259.72546"
-       id="rect16372"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <text
-       id="text13391"
-       y="1872.4425"
-       x="1470.228"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="1872.4425"
-         x="1470.228"
-         id="tspan13393"
-         sodipodi:role="line"
-         style="font-size:25px;line-height:1.25">/fsfwdresden</tspan></text>
-    <path
-       id="path16273"
-       d="m 1286.9541,1852.4457 c -1.339,0.594 -2.7783,0.9953 -4.2886,1.1758 1.5416,-0.9241 2.7258,-2.3874 3.2832,-4.1311 -1.443,0.8558 -3.041,1.4771 -4.7419,1.8119 -1.362,-1.4512 -3.3026,-2.3579 -5.4503,-2.3579 -4.1236,0 -7.4672,3.3432 -7.4672,7.4669 0,0.5852 0.067,1.1551 0.1935,1.7017 -6.206,-0.3114 -11.7079,-3.2842 -15.3909,-7.8019 -0.6427,1.1028 -1.011,2.3854 -1.011,3.7539 0,2.5907 1.3183,4.8761 3.3219,6.2151 -1.2241,-0.039 -2.3754,-0.3747 -3.3821,-0.9339 0,0.031 0,0.063 0,0.094 0,3.6178 2.5739,6.6356 5.9898,7.322 -0.6265,0.1707 -1.2862,0.2618 -1.9671,0.2618 -0.4812,0 -0.9489,-0.046 -1.405,-0.1339 0.9504,2.9665 3.7079,5.1253 6.9755,5.1853 -2.5555,2.003 -5.7751,3.1967 -9.2737,3.1967 -0.6027,0 -1.197,-0.035 -1.7812,-0.1044 3.3046,2.1188 7.2295,3.355 11.4464,3.355 13.7346,0 21.2454,-11.378 21.2454,-21.2457 0,-0.3237 -0.01,-0.6456 -0.021,-0.9661 1.4587,-1.0526 2.7246,-2.3675 3.7256,-3.8651 z"
-       inkscape:connector-curvature="0"
-       style="fill:#2aa9e0" />
-    <g
-       transform="matrix(0.12395225,0,0,0.12395225,1290.9091,1847.1923)"
-       id="g16339">
-      <path
-         style="fill:#3c5a99"
-         inkscape:connector-curvature="0"
-         id="Blue_1_"
-         d="m 248.082,262.307 c 7.854,0 14.223,-6.369 14.223,-14.225 V 18.812 c 0,-7.857 -6.368,-14.224 -14.223,-14.224 H 18.812 c -7.857,0 -14.224,6.367 -14.224,14.224 v 229.27 c 0,7.855 6.366,14.225 14.224,14.225 z" />
-      <path
-         sodipodi:nodetypes="cccccscccsscccccc"
-         style="fill:#ffffff"
-         inkscape:connector-curvature="0"
-         id="f"
-         d="M 182.409,273.56582 V 162.504 h 33.499 l 5.016,-38.895 H 182.409 V 98.777 c 0,-11.261 3.127,-18.935 19.275,-18.935 L 222.28,79.833 V 45.045 c -3.562,-0.474 -15.788,-1.533 -30.012,-1.533 -29.695,0 -50.025,18.126 -50.025,51.413 v 28.684 h -33.585 v 38.895 h 33.585 v 111.06182 z" />
-    </g>
   </g>
   <rect
      style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter13161)"
@@ -63051,34 +63009,37 @@
      xml:space="preserve"
      id="flowRoot56460"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;line-height:1.25;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     transform="matrix(0.93750001,0,0,0.93750001,-30.266539,-1083.6952)"><flowRegion
+     transform="matrix(0.93750001,0,0,0.93750001,-34.440014,-1083.6952)"><flowRegion
        id="flowRegion56462"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle"><rect
          id="rect56464"
-         width="1819.5088"
+         width="1877.8888"
          height="676.2345"
          x="58.379963"
          y="1194.2001"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle" /></flowRegion><flowPara
-       id="flowPara56466">Open Data – maschinenlesbare Öffentlichkeit;</flowPara><flowPara
-       id="flowPara56468">staatliche Projektförderung</flowPara><flowPara
-       id="flowPara56476">mit dem Prototype Fund</flowPara><flowPara
-       id="flowPara56470" /><flowPara
-       id="flowPara56472">Katharina Meyer &amp; Fiona Krakenbürger</flowPara><flowPara
-       id="flowPara56474">Open Knowledge Foundation</flowPara></flowRoot>  <flowRoot
+       id="flowPara56466"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">Open Data – maschinenlesbare Öffentlichkeit;</flowPara><flowPara
+       id="flowPara56468"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">staatliche Projektförderung</flowPara><flowPara
+       id="flowPara56474"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Titillium;-inkscape-font-specification:'Titillium Semi-Bold'">mit dem Prototype Fund</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot56478"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;line-height:1.25;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     transform="matrix(0.93750001,0,0,0.93750001,130.24364,-83.38045)"><flowRegion
+     transform="matrix(0.93750001,0,0,0.93750001,94.286764,-290.90297)"><flowRegion
        id="flowRegion56480"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle"><rect
          id="rect56482"
-         width="1508.149"
-         height="262.70984"
+         width="1683.2889"
+         height="311.3598"
          x="14.594991"
          y="746.62036"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle" /></flowRegion><flowPara
-       id="flowPara56484">Datum, Urls, #Hashtags?</flowPara></flowRoot>  <flowRoot
+       id="flowPara13502">Katharina Meyer &amp; Fiona Krakenbürger</flowPara><flowPara
+       id="flowPara13516" /><flowPara
+       id="flowPara13512" /><flowPara
+       id="flowPara13514">Dresden, dd.mm.2018</flowPara></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot56486"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -63089,4 +63050,27 @@
          height="63.244957"
          x="1167.5992"
          y="985.00519" /></flowRegion><flowPara
-       id="flowPara56492" /></flowRoot></svg>
+       id="flowPara56492" /></flowRoot>  <text
+     id="text13391"
+     y="788.47015"
+     x="1485.6654"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"><tspan
+       y="788.47015"
+       x="1485.6654"
+       id="tspan13393"
+       sodipodi:role="line"
+       style="font-size:25.00000191px;line-height:1.25;stroke-width:1px">kontakt@fsfw-dresden.de</tspan></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot13526"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     transform="matrix(0.9375,0,0,0.9375,33.865868,38.362253)"><flowRegion
+       id="flowRegion13528"><rect
+         id="rect13530"
+         width="1021.6494"
+         height="136.21991"
+         x="484.06717"
+         y="595.9328" /></flowRegion><flowPara
+       id="flowPara13532"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.33333588px;font-family:Titillium;-inkscape-font-specification:Titillium">Dresden, dd.mm.2018</flowPara></flowRoot></svg>
