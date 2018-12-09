@@ -1,31 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mlt title="Anonymous Submission" LC_NUMERIC="de_DE.UTF-8" producer="main bin" version="6.11.0" root="/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Introentwurf1">
  <profile frame_rate_num="25" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
- <producer title="Anonymous Submission" id="303" in="0" out="149">
-  <property name="length">150</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Animationsentwurf-Buchlogo/%04d.png?begin=1</property>
-  <property name="ttl">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="progressive">1</property>
-  <property name="seekable">1</property>
-  <property name="begin">1</property>
-  <property name="meta.media.width">720</property>
-  <property name="meta.media.height">576</property>
-  <property name="mlt_service">qimage</property>
-  <property name="animation"/>
-  <property name="crop">0</property>
-  <property name="fade">0</property>
-  <property name="kdenlive:clipname">Diashow-Clip</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="loop">0</property>
-  <property name="luma_duration">25</property>
-  <property name="luma_file"/>
-  <property name="softness">0</property>
-  <property name="kdenlive:duration">150</property>
-  <property name="kdenlive:file_hash">b8b56dd1eea6f65b85b6a118e984420a</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="1" in="0" out="124">
   <property name="length">125</property>
   <property name="eof">pause</property>
@@ -60,6 +35,31 @@
   <property name="kdenlive:file_hash">30435c1087b0814ad2ab23869ebb2885</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="303" in="0" out="149">
+  <property name="length">150</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Animationsentwurf-Buchlogo/%04d.png?begin=1</property>
+  <property name="ttl">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="begin">1</property>
+  <property name="meta.media.width">190</property>
+  <property name="meta.media.height">110</property>
+  <property name="mlt_service">qimage</property>
+  <property name="animation"/>
+  <property name="crop">0</property>
+  <property name="fade">0</property>
+  <property name="kdenlive:clipname">Diashow-Clip</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="loop">0</property>
+  <property name="luma_duration">25</property>
+  <property name="luma_file"/>
+  <property name="softness">0</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="kdenlive:file_hash">b8b56dd1eea6f65b85b6a118e984420a</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -70,7 +70,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">25</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -84,13 +84,21 @@
   <property name="kdenlive:docproperties.videotargettrack">5</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">100</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:documentnotes"/>
-  <property name="kdenlive:clipgroups"/>
+  <property name="kdenlive:clipgroups">&lt;groups>
+ &lt;group>
+  &lt;clipitem position="75" track="4"/>
+  &lt;clipitem position="0" track="3"/>
+  &lt;clipitem position="0" track="5"/>
+  &lt;transitionitem position="75" track="4"/>
+ &lt;/group>
+&lt;/groups>
+</property>
   <property name="xml_retain">1</property>
-  <entry producer="303" in="0" out="149"/>
   <entry producer="1" in="0" out="124"/>
   <entry producer="2" in="0" out="124"/>
+  <entry producer="303" in="0" out="149"/>
  </playlist>
  <producer id="black" in="0" out="500">
   <property name="length">15000</property>
@@ -129,10 +137,11 @@
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">78/787:230x129:100</property>
+    <property name="transition.geometry">101/792:190x107:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
  </playlist>
@@ -195,7 +204,17 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition6">
+  <transition id="transition6" in="75" out="86">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="factory">loader</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition id="transition7">
    <property name="a_track">0</property>
    <property name="b_track">3</property>
    <property name="compositing">0</property>
@@ -205,7 +224,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition7">
+  <transition id="transition8">
    <property name="a_track">0</property>
    <property name="b_track">4</property>
    <property name="compositing">0</property>
@@ -215,7 +234,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition8">
+  <transition id="transition9">
    <property name="a_track">0</property>
    <property name="b_track">5</property>
    <property name="compositing">0</property>
@@ -225,7 +244,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition9">
+  <transition id="transition10">
    <property name="a_track">0</property>
    <property name="b_track">6</property>
    <property name="compositing">0</property>
