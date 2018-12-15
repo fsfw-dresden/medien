@@ -17,6 +17,23 @@
   <property name="kdenlive:file_size">258799</property>
   <property name="kdenlive:file_hash">8cb1dbc6c3fd40ad0a5658ea3237d814</property>
  </producer>
+ <producer title="Anonymous Submission" id="306" in="0" out="124">
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Outro-2.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">6000</property>
+  <property name="meta.media.height">3375</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:duration">125</property>
+  <property name="kdenlive:file_size">656928</property>
+  <property name="kdenlive:file_hash">4129a6d423391a1575d083eaba03bec7</property>
+  <property name="global_feed">1</property>
+ </producer>
  <producer title="Anonymous Submission" id="304" in="0" out="250">
   <property name="length">251</property>
   <property name="eof">pause</property>
@@ -30,25 +47,9 @@
   <property name="mlt_service">qimage</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:file_size">383714</property>
-  <property name="kdenlive:file_hash">c69cae20a13688196e3802ceed9d9306</property>
+  <property name="kdenlive:file_size">728051</property>
+  <property name="kdenlive:file_hash">fb39538be4f42da3adb5988525130dbf</property>
   <property name="global_feed">1</property>
- </producer>
- <producer id="306" in="0" out="124">
-  <property name="length">125</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Outro-2.png</property>
-  <property name="ttl">25</property>
-  <property name="aspect_ratio">1</property>
-  <property name="progressive">1</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.width">6000</property>
-  <property name="meta.media.height">3375</property>
-  <property name="mlt_service">qimage</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:duration">125</property>
-  <property name="kdenlive:file_size">553933</property>
-  <property name="kdenlive:file_hash">41363cc903e4d3b0bb4b929a8c14b7ba</property>
  </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
@@ -59,7 +60,7 @@
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
-  <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
+  <property name="kdenlive:docproperties.kdenliveversion">18.12.0</property>
   <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
@@ -77,10 +78,30 @@
   <property name="kdenlive:docproperties.zoom">6</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
+  <property name="kdenlive:docproperties.renderaudioquality">6</property>
+  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
+  <property name="kdenlive:docproperties.renderendguide">-1</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">WebM - the widespread free format (VP8/Vorbis)</property>
+  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">180</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">320</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderstartguide">-1</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">Outro-Entwurf1.webm</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
   <property name="xml_retain">1</property>
   <entry producer="305" in="0" out="124"/>
-  <entry producer="304" in="0" out="250"/>
   <entry producer="306" in="0" out="124"/>
+  <entry producer="304" in="0" out="250"/>
  </playlist>
  <producer id="black" in="0" out="500">
   <property name="length">15000</property>
