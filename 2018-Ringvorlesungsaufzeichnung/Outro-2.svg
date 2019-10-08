@@ -13,7 +13,7 @@
    viewBox="0 0 1800 1012.5"
    height="1080"
    width="1920"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="Outro-2.svg"
    inkscape:export-filename="/home/normans/Projekte/FSFW-Medien/2018-Ringvorlesungsaufzeichnung/Outro-2.png"
    inkscape:export-xdpi="300"
@@ -28,12 +28,12 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1004"
+     inkscape:window-height="1001"
      id="namedview104"
      showgrid="false"
-     inkscape:zoom="0.38"
-     inkscape:cx="1521.1948"
-     inkscape:cy="695.13215"
+     inkscape:zoom="0.5"
+     inkscape:cx="449.7809"
+     inkscape:cy="286.21127"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -42,7 +42,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     units="px" />
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <defs
      id="defs4">
     <filter
@@ -63049,7 +63051,7 @@
      xml:space="preserve"
      id="flowRoot56478"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.71686554px;line-height:1.25;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-     transform="matrix(0.91684584,0,0,0.93750001,-418.4574,-503.78194)"><flowRegion
+     transform="matrix(0.91684584,0,0,0.93750001,-418.4574,-582.7293)"><flowRegion
        id="flowRegion56480"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.71686554px;font-family:Titillium;-inkscape-font-specification:Titillium;text-align:center;text-anchor:middle"><rect
          id="rect56482"
@@ -63063,6 +63065,9 @@
        id="flowPara9122" /><flowPara
        id="flowPara13571">Feedback:</flowPara><flowPara
        id="flowPara9124">kontakt@fsfw-dresden.de</flowPara><flowPara
+       id="flowPara9093" /><flowPara
+       id="flowPara9095">Videoaufzeichnung und -schnitt:</flowPara><flowPara
+       id="flowPara9097">Oliver Schmidt , Norman Schwirz</flowPara><flowPara
        id="flowPara87195" /><flowPara
        id="flowPara87197" /><flowPara
        id="flowPara87199" /><flowPara
@@ -63260,13 +63265,13 @@
        id="flowPara9458"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Titillium;-inkscape-font-specification:'Titillium, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Die Logos gehören ihren jeweiligen Inhabern</flowPara></flowRoot>  <text
      xml:space="preserve"
-     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50000095px;line-height:125%;font-family:'Source Sans Pro';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;overflow:visible;visibility:visible;fill:#0b2817;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker:none;enable-background:accumulate"
-     x="1187.9747"
-     y="359.87546"
-     id="text13652"><tspan
+     style="color:#000000;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50000095px;line-height:1.25000002%;font-family:Titillium;-inkscape-font-specification:'Titillium Italic';letter-spacing:0px;word-spacing:0px;display:inline;overflow:visible;visibility:visible;fill:#0b2817;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker:none;enable-background:accumulate"
+     x="1188.645"
+     y="358.57501"
+     id="text13652-7"><tspan
        sodipodi:role="line"
-       id="tspan13650"
-       x="1187.9747"
-       y="359.87546"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.9375px">https://creativecommons.org/licenses/by-sa/4.0/</tspan></text>
+       id="tspan13650-5"
+       x="1188.645"
+       y="358.57501"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:Titillium;-inkscape-font-specification:'Titillium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.9375px">https://creativecommons.org/licenses/by-sa/4.0/</tspan></text>
 </svg>
