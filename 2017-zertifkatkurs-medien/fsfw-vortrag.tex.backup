@@ -1,0 +1,319 @@
+\documentclass{beamer}
+
+\usepackage{fontspec}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+
+\usetheme{FSFW}
+\date{31.~Mai 2017}
+
+\begin{document}
+
+\title{Digitalisierung demokratisch gestalten}
+\subtitle{Freie Software und Freie Inhalte für die Schule}
+
+\maketitle
+
+\begin{frame}
+  \frametitle{Software in der Schule}
+
+  \onslide<+->
+
+  \begin{block}{Problem}
+    Verwendung von Software in der Schule wünschenswert, aber
+    nicht-technische Aspekte schwierig
+    \begin{itemize}
+    \item Kosten
+    \item Lizenzierung
+    \item Datenschutz
+    \item Gleichberechtigung
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Achtung!}
+    Aspekt \enquote{kostenlos} allein nicht ausreichend (mögliche
+    Lizenzprobleme)
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Alternativen}
+    \emph{Freie Software} statt proprietärer Programme
+    \begin{itemize}
+    \item meist nicht so \enquote{gut} wie kommerzielle Programme
+    \item für den Schulgebrauch aber meist mehr als ausreichend!
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Beispiel~1: LibreOffice}
+
+  \onslide<+->
+
+  \begin{block}{Was'n das?}
+    \begin{itemize}
+    \item freie Implementierung einer Office Suite (Textverarbeitung,
+      Tabellenkalkulation, Präsentationen, \dots)
+    \item verfügbar für Windows, Mac, und Linux
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Warum?}
+    \begin{itemize}
+    \item für alle Schüler ohne Probleme verfügbar
+    \item Unterstützung offener Dateiformate, die auch durch andere Programme
+      lesbar sind
+    \item keine Abhängigkeit von einem Hersteller
+    \item keine Lizenzierung notwendig (insbesondere kostenlos)
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Woher?}
+    \url{https://www.libreoffice.org/}
+  \end{block}
+
+  % TODO: screenshots from https://www.libreoffice.org/discover/screenshots/
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Beispiel~2: OwnCloud/NextCloud}
+
+  \onslide<+->
+
+  \begin{block}{Was'n das?}
+    \begin{itemize}
+    \item Freies Programm zum Datenaustausch und zur Datensynchronisation
+    \item verfügbar für Windows, Mac, Linux, und Mobilgeräte
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Warum?}
+    \begin{itemize}
+    \item Kontrolle über eigene Daten
+    \item keine Lizenzierung notwendig (insbesondere kostenlos)
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Woher?}
+    \begin{itemize}
+    \item \url{https://nextcloud.com/}
+    \item \url{https://owncloud.org/}
+    \end{itemize}
+  \end{block}
+
+  % TODO: screenshots
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Beispiel~3: Gimp und Inkscape}
+
+  \onslide<+->
+
+  \begin{block}{Was'n das?}
+    \begin{itemize}
+    \item Bildbearbeitung; pixelbasiert (Gimp) oder vektorbasiert (Inkscape)
+    \item erhältlich für Windows, Mac, und Linux
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Warum?}
+    \begin{itemize}
+    \item für Schulgebrauch mehr als ausreichend
+    \item für alle Schüler ohne Probleme verfügbar
+    \item keine Lizenzierung notwendig (insbesondere kostenlos)
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Woher?}
+    \begin{itemize}
+    \item \url{https://gimp.org}
+    \item \url{https://inkscape.org}
+    \end{itemize}
+  \end{block}
+
+  % TODO: screenshots
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Weitere Beispiele}
+
+  \onslide<+->
+
+  \begin{itemize}
+  \item GNU/Linux, ein freies Betriebssystem % eventuell skolelinux nennen?
+                                % scheint aber nicht ganz aktuell zu sein :(
+  \item GeoGebra (\url{https://www.geogebra.org})
+  \item Stellarium (\url{www.stellarium.org})
+  \item Minetest als Alternative zu Minecraft (\url{minetest.net})
+  \item Jabber für Instant Messaging, zum Beispiel mit Pidgin
+    (\url{https://pidgin.im})
+  \item Scribus für Desktop Publishing (\url{https://www.scribus.net})
+  \item ShotCut für Videobearbeitung (\url{https://www.shotcut.org})
+  \item Audacity für Audiobearbeitung (\url{www.audacityteam.org})
+  \item diaspora*, ein soziales Netzwerk (\url{https://www.joindiaspora.com})
+  \item GNUSocial, Quitter, Mastodon, \dots{} Kurznachrichtendienste
+    (\url{https://mastodon.social})
+  \item Notepad++ (\url{https://notepad-plus-plus.org})
+  \end{itemize}
+
+  Weitere Beispiele unter \url{https://alternativeto.net}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Software-Freiheiten}
+
+  \onslide<+->
+  \onslide<+->
+
+  \begin{block}{Software für jeden Anforderung benutzen zu können}
+    \begin{itemize}
+    \item Erlaubt die uneingeschränkte Verwendung von Programmen
+    \item Schützt vor komplexen Nutzungsvereinbarungen und versehentlichen
+      Lizenzverstößen; Verwendung wird erheblich vereinfacht.
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Software untersuchen und modifizieren zu können}
+    \begin{itemize}
+    \item Erlaubt das Verständnis vorhandener Programme, die Anpassung an
+      spezielle Anforderungen, und die Überprüfung der Korrektheit
+    \item Schützt vor Abhängigkeiten und unerwünschtem Verhalten
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Software-Freiheiten}
+
+  \onslide<+->
+
+  \begin{block}{Kopien der Software weitergeben zu können}
+    \begin{itemize}
+    \item Erlaubt allen die Verwendung gleicher Programme, ohne Berücksichtigung
+      von sozialem oder finanziellem Status, und fördert damit Zusammenarbeit
+    \item Schützt vor sozialer Ausgrenzung
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Angepasste Kopien weitergeben zu können}
+    \begin{itemize}
+    \item Erlaubt allen Beteiligten, von Anpassungen anderer zu profitieren
+    \item Schützt vor Abhängigkeiten bei Fehlerkorrekturen und vor unerwünschtem
+      Verhalten der Software
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Weiterführendes zu Freier Software}
+
+  \onslide<+->
+
+  \begin{block}{Mehr Informationen zu Freier Software}
+    \begin{itemize}
+    \item Free Software Foundation (\url{https://fsf.org})
+    \item Free Software Foundation Europe (\url{https://fsfe.org})
+    \item Ausführliche Beschreibung der vier Freiheiten:
+      \url{https://www.gnu.org/philosophy/free-sw.html}
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Freie Inhalte für die Schule}
+
+  \onslide<+->
+
+  \begin{block}{Probleme mit Urheberrecht}
+    \begin{itemize}
+    \item Fragen zum Urheberrecht in Schule relevant (Arbeitsblätter,
+      Aufgabensammlungen, \dots)
+    \item Oft unklar, ob Kopien für Unterricht genutzt werden dürfen
+      % http://www.urheberrecht.de/schule/
+    \end{itemize}
+  \end{block}
+
+  \onslide<+->
+
+  \begin{block}{Freie Inhalte}
+    \begin{itemize}
+    \item Freiheiten für Software auf Unterrichtsmaterialien übertragen
+    \item Lizenzen, die Weitergabe und Veränderungen ermöglichen \\
+      (Creative Commons)
+    \item Ergebnis: \emph{Open Educational Resources}
+    \item Beispiele
+      \begin{itemize}
+      \item Zentrale für Unterrichtsmedien im Internet
+        (\url{https://www.zum.de})
+      \item Serlo (\url{https://de.serlo.org})
+      \item \url{https://www.tutory.de/}
+      \item Wikipedia
+      \end{itemize}
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+
+  \onslide<+->
+
+  % stolen from Datenspuren lightning talk
+
+  \begin{center}
+  \parbox{7.3cm}{
+  {\color{gray!20}     \url{https://fsfw-dresden.de/}}\texttt{fork}\\[1mm]
+  {\color{gray!20}     \url{https://fsfw-dresden.de/}}\texttt{mitmachen}\\[1mm]
+  {\color{gray!20}     \url{https://fsfw-dresden.de/}}\texttt{newsletter}\\[1mm]
+  {\color{gray!20}     \url{https://fsfw-dresden.de/}}\texttt{sprechstunde}\\[1mm]
+}
+%     $\;\;\left\{\;\;\text{
+%         \parbox{2.3cm}{
+%           \texttt{sprechstunde}\\[1mm]
+%           \texttt{mitmachen}\\[1mm]
+%           \texttt{fork}\\[1mm]
+%           \texttt{newsletter}
+%         }}
+%     \right.$
+% 
+%     \vspace*{2\bigskipamount}
+
+    \includegraphics[width=50mm]{fsfw-netzwerke}
+  \end{center}
+
+\end{frame}
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: luatex
+% End:
+
+%  LocalWords:  Nutzungsvereinbarungen

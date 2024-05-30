@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="dav1dp-meshed-gears.svg"
+   inkscape:export-filename="/home/david/Dropbox/grafX/myClipart/Rasters/dav1dp_meshed_gears.png"
+   viewBox="0 0 159.54 90.866"
+   inkscape:export-xdpi="58.833157"
+   version="1.1"
+   inkscape:export-ydpi="58.833157"
+   inkscape:version="0.92.1 r15371"
+   width="170.17599"
+   height="96.923729">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="base"
+     fit-margin-left="0"
+     inkscape:zoom="2.8503598"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="-15.995013"
+     inkscape:cy="66.409652"
+     inkscape:snap-grids="false"
+     inkscape:window-maximized="1"
+     showgrid="true"
+     fit-margin-right="0"
+     inkscape:document-units="px"
+     bordercolor="#666666"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     pagecolor="#ffffff"
+     inkscape:snap-to-guides="false"
+     inkscape:window-height="1142"
+     fit-margin-top="0">
+    <inkscape:grid
+       id="grid2985"
+       spacingx="10"
+       originy="-204.56715"
+       enabled="true"
+       originx="-50.000002"
+       spacingy="10"
+       visible="false"
+       snapvisiblegridlinesonly="true"
+       type="xygrid"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-50,-756.93)">
+    <g
+       id="g829">
+      <path
+         d="m 80.594,756.96 c -1.4336,0.11093 -3.2466,0.73862 -5.5938,2.0938 -15.022,8.6728 6.6103,12.666 -2.0625,27.688 -8.673,15.02 -22.938,-1.72 -22.938,15.62 0,17.346 14.265,0.60321 22.938,15.625 8.6728,15.022 -12.959,19.015 2.0625,27.688 15.022,8.6728 7.6543,-12.062 25,-12.062 17.3457,0 9.9782,20.735 25,12.062 15.022,-8.6728 -6.6103,-12.666 2.0625,-27.688 8.6728,-15.022 22.938,1.7207 22.938,-15.625 0,-17.3457 -14.265,-0.60321 -22.938,-15.625 -8.6728,-15.022 12.959,-19.015 -2.0625,-27.688 -15.022,-8.6728 -7.6543,12.062 -25,12.062 -14.635,0 -11.665,-14.755 -19.406,-14.156 z M 100,782.36 c 11.046,0 20,8.9543 20,20 0,11.0457 -8.9543,20 -20,20 -11.0457,0 -20,-8.9543 -20,-20 0,-11.0457 8.9543,-20 20,-20 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         id="path2987" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000000"
+         d="m 145.84,780.15 c -0.88956,0.60965 -1.8317,1.6972 -2.8481,3.4576 -6.5046,11.266 9.0432,5.7478 9.0432,18.757 -1e-5,13.009 -15.544,7.484 -9.039,18.75 6.5046,11.266 9.4914,-4.9574 20.758,1.5472 11.266,6.5046 -1.2868,17.21 11.722,17.21 13.0088,0 0.4482,-10.705 11.715,-17.21 11.266,-6.5046 14.257,9.7262 20.761,-1.5402 6.5046,-11.266 -9.0432,-5.7478 -9.0432,-18.757 1e-5,-13.009 15.544,-7.484 9.039,-18.75 -6.5046,-11.266 -9.4914,4.9574 -20.758,-1.5472 -11.266,-6.5046 1.2868,-17.21 -11.722,-17.21 -13.0088,0 -0.4482,10.705 -11.715,17.21 -9.506,5.4883 -13.11,-5.2096 -17.913,-1.9174 z m 22.132,9.2245 c 7.1744,-4.1421 16.348,-1.684 20.49,5.4904 4.1421,7.1744 1.684,16.348 -5.4904,20.49 -7.1744,4.1421 -16.348,1.684 -20.49,-5.4904 -4.1421,-7.1744 -1.684,-16.348 5.4904,-20.49 z"
+         id="path2992" />
+    </g>
+  </g>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Meshed Gears</dc:title>
+        <dc:date>2013-03-13T14:10:54</dc:date>
+        <dc:description>gears/sprockets meshed together</dc:description>
+        <dc:source>https://openclipart.org/detail/176293/meshed-gears-by-dav1dp-176293</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dav1dp</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>gear</rdf:li>
+            <rdf:li>machine</rdf:li>
+            <rdf:li>mesh</rdf:li>
+            <rdf:li>sprocket</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
